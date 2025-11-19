@@ -1,0 +1,71 @@
+{
+  "categories": [
+    {
+      "name": "Christmas",
+      "slug": "christmas",
+      "subcategories": [
+        { "name": "Trees", "slug": "trees" },
+        { "name": "LED TVs", "slug": "led-tvs" },
+        { "name": "OLED TVs", "slug": "oled-tvs" },
+        { "name": "QLED TVs", "slug": "qled-tvs" },
+        { "name": "Soundbars", "slug": "soundbars" },
+        { "name": "Home Theater Systems", "slug": "home-theater-systems" },
+        { "name": "Headphones", "slug": "headphones" },
+        { "name": "Bluetooth Speakers", "slug": "bluetooth-speakers" },
+        { "name": "Smart Watches", "slug": "smart-watches" },
+        { "name": "Smart Home Devices", "slug": "smart-home-devices" }
+      ]
+    },
+    {
+      "name": "Computer",
+      "slug": "computer",
+      "subcategories": [
+        { "name": "Laptops", "slug": "laptops" },
+        { "name": "Gaming Laptops", "slug": "gaming-laptops" },
+        { "name": "Desktops", "slug": "desktops" },
+        { "name": "Monitors", "slug": "monitors" },
+        { "name": "PC Components", "slug": "pc-components" },
+        { "name": "Graphics Cards", "slug": "graphics-cards" },
+        { "name": "Motherboards", "slug": "motherboards" },
+        { "name": "RAM", "slug": "ram" },
+        { "name": "SSDs", "slug": "ssds" },
+        { "name": "Keyboards & Mice", "slug": "keyboards-mice" }
+      ]
+    },
+    {
+      "name": "Beauty & Personal Care",
+      "slug": "beauty-personal-care",
+      "subcategories": [
+        { "name": "Makeup", "slug": "makeup" },
+        { "name": "Skincare", "slug": "skincare" },
+        { "name": "Hair Care", "slug": "hair-care" },
+        { "name": "Fragrance", "slug": "fragrance" },
+        { "name": "Tools & Accessories", "slug": "beauty-tools" },
+        { "name": "Men's Grooming", "slug": "mens-grooming" },
+        { "name": "Bath & Body", "slug": "bath-body" },
+        { "name": "Shaving", "slug": "shaving" },
+        { "name": "Oral Care", "slug": "oral-care" }
+      ]
+    },
+    {
+      "name": "Bed & Bath",
+      "slug": "bed-bath",
+      "subcategories": [
+        { "name": "Bedding Sets", "slug": "bedding-sets" },
+        { "name": "Comforters & Quilts", "slug": "comforters-quilts" },
+        { "name": "Sheets & Pillowcases", "slug": "sheets-pillowcases" },
+        { "name": "Mattresses", "slug": "mattresses" },
+        { "name": "Pillows", "slug": "pillows" },
+        { "name": "Blankets & Throws", "slug": "blankets-throws" },
+        { "name": "Bathroom Accessories", "slug": "bathroom-accessories" },
+        { "name": "Towels", "slug": "towels" },
+        { "name": "Shower Curtains", "slug": "shower-curtains" }
+      ]
+    }
+  ],
+  "specialButtons": [
+    { "name": "Trending", "slug": "trending" },
+    { "name": "Deals", "slug": "deals" },
+    { "name": "Gift Guides", "slug": "gift-guides" }
+  ]
+}

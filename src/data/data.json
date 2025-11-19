@@ -1,0 +1,481 @@
+{
+  "categories": [
+    {
+      "name": "Christmas",
+      "slug": "christmas",
+      "products": [
+        {
+          "subcategory": "Trees",
+          "slug": "trees",
+          "item":[          
+           {
+            "name": "Pokie Tree",
+            "description": "A vibrant 4K LED TV offering crisp visuals, HDR support, and smooth motion handling.",
+            "price": 799.99,
+            "discountPrice": 699.99,
+            "image": "https://i.pinimg.com/736x/fa/f3/f2/faf3f225ac2674210ef2e9346ba8c4e0.jpg"
+          },
+           {
+            "name": "UltraView 55-inch 4K TV",
+            "description": "A vibrant 4K LED TV offering crisp visuals, HDR support, and smooth motion handling.",
+            "price": 799.99,
+            "discountPrice": 699.99,
+            "image": "https://i.pinimg.com/736x/fa/f3/f2/faf3f225ac2674210ef2e9346ba8c4e0.jpg"
+          },
+          {
+            "name": "UltraView 55-inch 4K TV",
+            "description": "A vibrant 4K LED TV offering crisp visuals, HDR support, and smooth motion handling.",
+            "price": 799.99,
+            "discountPrice": 699.99,
+            "image": "https://i.pinimg.com/736x/fa/f3/f2/faf3f225ac2674210ef2e9346ba8c4e0.jpg"
+          },
+          {
+            "name": "UltraView 55-inch 4K TV",
+            "description": "A vibrant 4K LED TV offering crisp visuals, HDR support, and smooth motion handling.",
+            "price": 799.99,
+            "discountPrice": 699.99,
+            "image": "https://i.pinimg.com/736x/fa/f3/f2/faf3f225ac2674210ef2e9346ba8c4e0.jpg"
+          }
+        ]
+        },
+        {
+          "subcategory": "LED TVs",
+          "slug": "led-tvs",
+          "item": {
+            "name": "BrightVision 50-inch LED TV",
+            "description": "Energy-efficient LED TV with excellent brightness and dynamic color.",
+            "price": 599.99,
+            "discountPrice": 499.99,
+            "image": "https://www.pinterest.com/pin/931541504155091290/"
+          }
+        },
+        {
+          "subcategory": "OLED TVs",
+          "slug": "oled-tvs",
+          "item": {
+            "name": "LuxOLED 65-inch UHD",
+            "description": "Premium OLED panel offering deep blacks and stunning picture clarity.",
+            "price": 1999.99,
+            "discountPrice": 1699.99,
+            "image": "https://images.unsplash.com/photo-1583614203297-7b6a5e0a2f1b"
+          }
+        },
+        {
+          "subcategory": "QLED TVs",
+          "slug": "qled-tvs",
+          "item": {
+            "name": "QuantumGlow QLED TV",
+            "description": "Bright and colorful QLED display with superior contrast and HDR10.",
+            "price": 1299.99,
+            "discountPrice": 1099.99,
+            "image": "https://www.pinterest.com/pin/931541504155091290/"
+          }
+        },
+        {
+          "subcategory": "Soundbars",
+          "slug": "soundbars",
+          "item":[
+           {
+            "name": "BassMax Soundbar 2.1",
+            "description": "Powerful soundbar with wireless subwoofer and Dolby Audio support.",
+            "price": 249.99,
+            "discountPrice": 199.99,
+            "image": "https://images.unsplash.com/photo-1583614203297-7b6a5e0a2f1b"
+          },
+          {
+            "name": "UltraView 55-inch 4K TV",
+            "description": "A vibrant 4K LED TV offering crisp visuals, HDR support, and smooth motion handling.",
+            "price": 799.99,
+            "discountPrice": 699.99,
+            "image": "https://i.pinimg.com/736x/fa/f3/f2/faf3f225ac2674210ef2e9346ba8c4e0.jpg"
+          }
+        ]
+        },
+        {
+          "subcategory": "Home Theater Systems",
+          "slug": "home-theater-systems",
+          "item": {
+            "name": "CineSurround 5.1 System",
+            "description": "Immersive home theater setup with true surround sound and deep bass.",
+            "price": 499.99,
+            "discountPrice": 399.99,
+            "image": "https://www.pinterest.com/pin/931541504155091290/"
+          }
+        },
+        {
+          "subcategory": "Headphones",
+          "slug": "headphones",
+          "item": {
+            "name": "SilentWave Noise Canceling Headphones",
+            "description": "Wireless headphones with premium noise cancellation and 30-hour battery.",
+            "price": 199.99,
+            "discountPrice": 159.99,
+            "image": "https://images.unsplash.com/photo-1583614203297-7b6a5e0a2f1b"
+          }
+        },
+        {
+          "subcategory": "Bluetooth Speakers",
+          "slug": "bluetooth-speakers",
+          "item": {
+            "name": "BeatBox Portable Speaker",
+            "description": "Compact speaker delivering punchy bass and 12-hour playtime.",
+            "price": 89.99,
+            "discountPrice": 69.99,
+            "image": "https://www.pinterest.com/pin/931541504155091290/"
+          }
+        },
+        {
+          "subcategory": "Smart Watches",
+          "slug": "smart-watches",
+          "item": {
+            "name": "TimeSync Smartwatch",
+            "description": "Track fitness, sleep, and notifications with a stylish AMOLED display.",
+            "price": 149.99,
+            "discountPrice": 119.99,
+            "image": "https://images.unsplash.com/photo-1583614203297-7b6a5e0a2f1b"
+          }
+        },
+        {
+          "subcategory": "Smart Home Devices",
+          "slug": "smart-home-devices",
+          "item": {
+            "name": "HomeGuard Smart Camera",
+            "description": "1080p smart security camera with night vision and motion alerts.",
+            "price": 79.99,
+            "discountPrice": 59.99,
+            "image": "https://www.pinterest.com/pin/931541504155091290/"
+          }
+        }
+      ]
+    },
+
+    {
+      "name": "Computer",
+      "slug": "computer",
+      "products": [
+        {
+          "subcategory": "Laptops",
+          "slug": "laptops",
+          "item": {
+            "name": "ProBook X15",
+            "description": "High-performance laptop for productivity with a full HD display.",
+            "price": 999.99,
+            "discountPrice": 899.99,
+            "image": "https://images.unsplash.com/photo-1583614203297-7b6a5e0a2f1b"
+          }
+        },
+        {
+          "subcategory": "Gaming Laptops",
+          "slug": "gaming-laptops",
+          "item": {
+            "name": "GamerForce RTX Laptop",
+            "description": "Powerful gaming laptop with RTX graphics and RGB keyboard.",
+            "price": 1599.99,
+            "discountPrice": 1399.99,
+            "image": "https://www.pinterest.com/pin/931541504155091290/"
+          }
+        },
+        {
+          "subcategory": "Desktops",
+          "slug": "desktops",
+          "item": {
+            "name": "PowerCore Desktop PC",
+            "description": "Fast desktop for everyday tasks and multitasking.",
+            "price": 699.99,
+            "discountPrice": 599.99,
+            "image": "https://images.unsplash.com/photo-1583614203297-7b6a5e0a2f1b"
+          }
+        },
+        {
+          "subcategory": "Monitors",
+          "slug": "monitors",
+          "item": {
+            "name": "ViewPro 27-inch Monitor",
+            "description": "Full HD monitor with ultra-thin bezels and vibrant colors.",
+            "price": 199.99,
+            "discountPrice": 159.99,
+            "image": "https://www.pinterest.com/pin/931541504155091290/"
+          }
+        },
+        {
+          "subcategory": "PC Components",
+          "slug": "pc-components",
+          "item": {
+            "name": "UltraAir CPU Cooler",
+            "description": "Efficient cooling solution with quiet operation.",
+            "price": 49.99,
+            "discountPrice": 39.99,
+            "image": "https://images.unsplash.com/photo-1583614203297-7b6a5e0a2f1b"
+          }
+        },
+        {
+          "subcategory": "Graphics Cards",
+          "slug": "graphics-cards",
+          "item": {
+            "name": "Nexa RTX 3060",
+            "description": "High-performance graphics card ideal for gaming and design.",
+            "price": 499.99,
+            "discountPrice": 429.99,
+            "image": "https://www.pinterest.com/pin/931541504155091290/"
+          }
+        },
+        {
+          "subcategory": "Motherboards",
+          "slug": "motherboards",
+          "item": {
+            "name": "XtremeBoard Z490",
+            "description": "Advanced motherboard supporting high-speed components.",
+            "price": 249.99,
+            "discountPrice": 199.99,
+            "image": "https://images.unsplash.com/photo-1583614203297-7b6a5e0a2f1b"
+          }
+        },
+        {
+          "subcategory": "RAM",
+          "slug": "ram",
+          "item": {
+            "name": "HyperSpeed 16GB RAM",
+            "description": "Fast DDR4 memory designed for gaming and heavy apps.",
+            "price": 89.99,
+            "discountPrice": 69.99,
+            "image": "https://www.pinterest.com/pin/931541504155091290/"
+          }
+        },
+        {
+          "subcategory": "SSDs",
+          "slug": "ssds",
+          "item": {
+            "name": "FlashPro 1TB SSD",
+            "description": "Lightning-fast SSD designed for fast boot and load times.",
+            "price": 129.99,
+            "discountPrice": 99.99,
+            "image": "https://images.unsplash.com/photo-1583614203297-7b6a5e0a2f1b"
+          }
+        },
+        {
+          "subcategory": "Keyboards & Mice",
+          "slug": "keyboards-mice",
+          "item": {
+            "name": "ClixPro Wireless Combo",
+            "description": "Wireless keyboard and mouse set with silent keys.",
+            "price": 49.99,
+            "discountPrice": 39.99,
+            "image": "https://www.pinterest.com/pin/931541504155091290/"
+          }
+        }
+      ]
+    },
+
+    {
+      "name": "Beauty & Personal Care",
+      "slug": "beauty-personal-care",
+      "products": [
+        {
+          "subcategory": "Makeup",
+          "slug": "makeup",
+          "item": {
+            "name": "GlowMatte Foundation",
+            "description": "Lightweight matte foundation with long-lasting coverage.",
+            "price": 29.99,
+            "discountPrice": 24.99,
+            "image": "https://images.unsplash.com/photo-1583614203297-7b6a5e0a2f1b"
+          }
+        },
+        {
+          "subcategory": "Skincare",
+          "slug": "skincare",
+          "item": {
+            "name": "PureHydra Face Serum",
+            "description": "Deep hydrating serum enriched with vitamin C.",
+            "price": 39.99,
+            "discountPrice": 29.99,
+            "image": "https://www.pinterest.com/pin/931541504155091290/"
+          }
+        },
+        {
+          "subcategory": "Hair Care",
+          "slug": "hair-care",
+          "item": {
+            "name": "SilkSmooth Shampoo",
+            "description": "Nourishing shampoo for silky smooth hair.",
+            "price": 14.99,
+            "discountPrice": 11.99,
+            "image": "https://images.unsplash.com/photo-1583614203297-7b6a5e0a2f1b"
+          }
+        },
+        {
+          "subcategory": "Fragrance",
+          "slug": "fragrance",
+          "item": {
+            "name": "AromaMist Perfume",
+            "description": "Fresh floral fragrance with a long-lasting scent.",
+            "price": 59.99,
+            "discountPrice": 49.99,
+            "image": "https://www.pinterest.com/pin/931541504155091290/"
+          }
+        },
+        {
+          "subcategory": "Tools & Accessories",
+          "slug": "beauty-tools",
+          "item": {
+            "name": "ProGlam Makeup Brush Kit",
+            "description": "Premium set of 12 soft makeup brushes.",
+            "price": 24.99,
+            "discountPrice": 19.99,
+            "image": "https://images.unsplash.com/photo-1583614203297-7b6a5e0a2f1b"
+          }
+        },
+        {
+          "subcategory": "Men's Grooming",
+          "slug": "mens-grooming",
+          "item": {
+            "name": "SharpTrim Beard Kit",
+            "description": "Complete grooming kit with trimmer and oils.",
+            "price": 39.99,
+            "discountPrice": 32.99,
+            "image": "https://www.pinterest.com/pin/931541504155091290/"
+          }
+        },
+        {
+          "subcategory": "Bath & Body",
+          "slug": "bath-body",
+          "item": {
+            "name": "FreshBloom Body Wash",
+            "description": "Refreshing body wash with moisturizing formula.",
+            "price": 12.99,
+            "discountPrice": 9.99,
+            "image": "https://images.unsplash.com/photo-1583614203297-7b6a5e0a2f1b"
+          }
+        },
+        {
+          "subcategory": "Shaving",
+          "slug": "shaving",
+          "item": {
+            "name": "SmoothShave Razor Kit",
+            "description": "Premium razor with extra blades included.",
+            "price": 19.99,
+            "discountPrice": 14.99,
+            "image": "https://www.pinterest.com/pin/931541504155091290/"
+          }
+        },
+        {
+          "subcategory": "Oral Care",
+          "slug": "oral-care",
+          "item": {
+            "name": "BrightSmile Toothbrush",
+            "description": "Electric toothbrush with multiple cleaning modes.",
+            "price": 49.99,
+            "discountPrice": 39.99,
+            "image": "https://images.unsplash.com/photo-1583614203297-7b6a5e0a2f1b"
+          }
+        }
+      ]
+    },
+
+    {
+      "name": "Bed & Bath",
+      "slug": "bed-bath",
+      "products": [
+        {
+          "subcategory": "Bedding Sets",
+          "slug": "bedding-sets",
+          "item": {
+            "name": "CozyDream Bedding Set",
+            "description": "Soft and comfortable bedding set with premium cotton fabric.",
+            "price": 89.99,
+            "discountPrice": 69.99,
+            "image": "https://www.pinterest.com/pin/931541504155091290/"
+          }
+        },
+        {
+          "subcategory": "Comforters & Quilts",
+          "slug": "comforters-quilts",
+          "item": {
+            "name": "WarmNest Quilt",
+            "description": "Premium quilt designed for cool and warm nights.",
+            "price": 79.99,
+            "discountPrice": 59.99,
+            "image": "https://images.unsplash.com/photo-1583614203297-7b6a5e0a2f1b"
+          }
+        },
+        {
+          "subcategory": "Sheets & Pillowcases",
+          "slug": "sheets-pillowcases",
+          "item": {
+            "name": "SoftTouch Sheet Set",
+            "description": "High-thread-count sheets for luxurious comfort.",
+            "price": 49.99,
+            "discountPrice": 39.99,
+            "image": "https://www.pinterest.com/pin/931541504155091290/"
+          }
+        },
+        {
+          "subcategory": "Mattresses",
+          "slug": "mattresses",
+          "item": {
+            "name": "DreamRest Mattress",
+            "description": "Memory foam mattress offering superior support.",
+            "price": 499.99,
+            "discountPrice": 429.99,
+            "image": "https://images.unsplash.com/photo-1583614203297-7b6a5e0a2f1b"
+          }
+        },
+        {
+          "subcategory": "Pillows",
+          "slug": "pillows",
+          "item": {
+            "name": "CloudSoft Pillow",
+            "description": "Ultra-soft pillow for restful sleep.",
+            "price": 24.99,
+            "discountPrice": 19.99,
+            "image": "https://www.pinterest.com/pin/931541504155091290/"
+          }
+        },
+        {
+          "subcategory": "Blankets & Throws",
+          "slug": "blankets-throws",
+          "item": {
+            "name": "CozyWarm Blanket",
+            "description": "Plush blanket perfect for winter nights.",
+            "price": 39.99,
+            "discountPrice": 29.99,
+            "image": "https://images.unsplash.com/photo-1583614203297-7b6a5e0a2f1b"
+          }
+        },
+        {
+          "subcategory": "Bathroom Accessories",
+          "slug": "bathroom-accessories",
+          "item": {
+            "name": "AquaStyle Bathroom Set",
+            "description": "Premium bathroom accessory set with modern design.",
+            "price": 29.99,
+            "discountPrice": 24.99,
+            "image": "https://www.pinterest.com/pin/931541504155091290/"
+          }
+        },
+        {
+          "subcategory": "Towels",
+          "slug": "towels",
+          "item": {
+            "name": "Soft Luxe Towels",
+            "description": "Super absorbent towels made with Egyptian cotton.",
+            "price": 19.99,
+            "discountPrice": 14.99,
+            "image": "https://images.unsplash.com/photo-1583614203297-7b6a5e0a2f1b"
+          }
+        },
+        {
+          "subcategory": "Shower Curtains",
+          "slug": "shower-curtains",
+          "item": {
+            "name": "AquaGuard Shower Curtain",
+            "description": "Water-resistant shower curtain with anti-mold coating.",
+            "price": 14.99,
+            "discountPrice": 9.99,
+            "image": "https://www.pinterest.com/pin/931541504155091290/"
+          }
+        }
+      ]
+    }
+  ]
+}
