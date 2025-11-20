@@ -1,8 +1,8 @@
 {
   "categories": [
     {
-      "name": "Christmas",
-      "slug": "christmas",
+      "name": "Electronics",
+      "slug": "electronics",
       "subcategories": [
         { "name": "Trees", "slug": "trees" },
         { "name": "LED TVs", "slug": "led-tvs" },
