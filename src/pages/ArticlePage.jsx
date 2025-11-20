@@ -1,7 +1,7 @@
 import { useEffect, useState } from 'react';
 import { Link, useParams } from 'react-router-dom';
 import articlesData from '../data/articles.json';
-import mockData from '../data/mockdata.json'; // For related products
+import mockData from '../data/mockdata.json'; 
 
 export default function ArticlePage() {
   const { slug } = useParams();
