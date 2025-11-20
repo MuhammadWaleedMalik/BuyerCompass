@@ -1,7 +1,7 @@
 import { useEffect, useState } from "react";
 import { Link } from "react-router-dom";
 import Slider from "react-slick"; // Carousel
-import mockData from "../data/mockdata.json";
+import mockData from "../data/mockData.json";
 import reviewsData from "../data/reviews.json"; // Client reviews
 import articlesData from "../data/articles.json"; // NEW — full article list
 import "slick-carousel/slick/slick.css";
