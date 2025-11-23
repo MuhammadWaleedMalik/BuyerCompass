@@ -2,6 +2,7 @@ import { useState } from "react";
 import { Link } from "react-router-dom";
 import { ChevronDown, Menu, X } from "lucide-react";
 import navigation from "../data/navigation.json";
+import ui from "../data/ui.json";
 
 export default function Navigation() {
   const { categories, specialButtons } = navigation;
@@ -13,21 +14,21 @@ export default function Navigation() {
     setActiveDropdown(activeDropdown === slug ? null : slug);
   };
 
-  // Elite gradient themes for special buttons
-  const getButtonTheme = (slug) => {
-    const themes = {
-      trending:
-        "bg-gradient-to-r from-blue-600 to-blue-500 hover:from-blue-500 hover:to-blue-400 text-white shadow-lg",
-      deals:
-        "bg-gradient-to-r from-green-600 to-green-500 hover:from-green-500 hover:to-green-400 text-white shadow-lg",
-      "gift-guides":
-        "bg-gradient-to-r from-amber-600 to-amber-500 hover:from-amber-500 hover:to-amber-400 text-white shadow-lg",
-    };
-    return themes[slug] || "bg-gray-800 hover:bg-gray-700 text-white shadow-md";
+  // Static palette — include every Tailwind class here so the JIT sees them.
+  const palette = {
+    blue: "bg-blue-600 text-white",       // simple blue
+    dark: "bg-blue-800 text-white",       // dark blue
+    // add more named palettes here if you need
+  };
+
+  // Resolve token from ui.json to actual static class string
+  const getButtonTheme = (type) => {
+    const token = ui.specialButtonColors[type] || ui.specialButtonColors.default || "blue";
+    return palette[token] || palette.blue;
   };
 
   return (
-    <nav className="bg-gradient-to-r from-blue-50 via-white to-amber-50 shadow-md sticky top-0 z-50 border-b border-gray-200">
+    <nav className="bg-white shadow-md sticky top-0 z-50 border-b border-gray-200">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex items-center justify-between h-16">
 
@@ -64,25 +65,27 @@ export default function Navigation() {
 
             {/* Special Buttons */}
             <div className="flex items-center space-x-3 ml-6">
-              {specialButtons.map((btn) => (
-                <Link
-                  key={btn.slug}
-                  to={`/${btn.slug}`}
-                  className={`text-sm font-semibold px-5 py-2 rounded-full transition-all duration-300 ${getButtonTheme(
-                    btn.slug
-                  )}`}
-                >
-                  {btn.name}
-                </Link>
-              ))}
+              {specialButtons.map((btn) => {
+                const classes = getButtonTheme(btn.type || "default");
+                return (
+                  <Link
+                    key={btn.slug}
+                    to={`/${btn.slug}`}
+                    // include padding/shape classes here so they're static too
+                    className={`text-sm font-semibold px-5 py-2 rounded-full transition-all duration-300 ${classes}`}
+                  >
+                    {btn.name}
+                  </Link>
+                );
+              })}
             </div>
           </div>
 
-          {/* Mobile */}
+          {/* Mobile Menu Button */}
           <div className="md:hidden">
             <button
               onClick={() => setMobileMenuOpen(!mobileMenuOpen)}
-              className="p-2 rounded-md text-gray-700 hover:bg-gray-100 hover:text-gray-900 transition-colors duration-200"
+              className="p-2 rounded-md text-gray-700 hover:bg-gray-100 hover:text-gray-900 transition"
             >
               {mobileMenuOpen ? <X className="w-6 h-6" /> : <Menu className="w-6 h-6" />}
             </button>
@@ -90,7 +93,7 @@ export default function Navigation() {
         </div>
       </div>
 
-      {/* MOBILE MENU */}
+      {/* Mobile Menu */}
       {mobileMenuOpen && (
         <div className="md:hidden bg-white border-t border-gray-200 shadow-lg">
           <div className="px-4 py-4 space-y-2">
@@ -121,17 +124,19 @@ export default function Navigation() {
             ))}
 
             <div className="pt-4 flex flex-col space-y-2">
-              {specialButtons.map((btn) => (
-                <Link
-                  key={btn.slug}
-                  to={`/${btn.slug}`}
-                  className={`text-sm font-semibold px-5 py-2 rounded-full text-center transition-all duration-300 ${getButtonTheme(
-                    btn.slug
-                  )}`}
-                >
-                  {btn.name}
-                </Link>
-              ))}
+              {specialButtons.map((btn) => {
+                const classes = getButtonTheme(btn.type || "default");
+                return (
+                  <Link
+                    key={btn.slug}
+                    to={`/${btn.slug}`}
+                    className={`text-sm font-semibold px-5 py-2 rounded-full text-center ${classes}`}
+                    onClick={() => setMobileMenuOpen(false)}
+                  >
+                    {btn.name}
+                  </Link>
+                );
+              })}
             </div>
           </div>
         </div>

@@ -6,13 +6,12 @@ export default function Footer() {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
 
         {/* GRID SECTION */}
-        <div className="grid grid-cols-1 md:grid-cols-3 gap-8 mb-8">
+        <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-10 mb-10">
 
           {/* LINKS */}
           <div>
             <h3 className="font-semibold mb-4 text-blue-400">LINKS</h3>
             <ul className="space-y-2 text-sm">
-              <li><Link to="/faq" className="hover:text-blue-300">FAQ</Link></li>
               <li><Link to="/about" className="hover:text-blue-300">About</Link></li>
               <li><Link to="/contact" className="hover:text-blue-300">Contact</Link></li>
               <li><Link to="/privacy-policy" className="hover:text-blue-300">Privacy Policy</Link></li>
@@ -20,26 +19,13 @@ export default function Footer() {
             </ul>
           </div>
 
-          {/* FEATURED */}
-          <div>
-            <h3 className="font-semibold mb-4 text-blue-400">FEATURED</h3>
-            <ul className="space-y-2 text-sm">
-              <li><Link to="/partnerships" className="hover:text-blue-300">Partnerships</Link></li>
-              <li><Link to="/press" className="hover:text-blue-300">Press</Link></li>
-              <li><Link to="/careers" className="hover:text-blue-300">Careers</Link></li>
-              <li><Link to="/gift-guides" className="hover:text-blue-300">Gift Guides</Link></li>
-              <li><Link to="/reviews" className="hover:text-blue-300">Reviews</Link></li>
-            </ul>
-          </div>
-
           {/* NEWSLETTER */}
           <div>
-            <h3 className="font-semibold mb-4">
-              Get <span className="text-blue-400">exclusive content, advice, and tips</span>
+            <h3 className="font-semibold mb-4 leading-relaxed">
+              Get <span className="text-blue-400">exclusive content, advice,</span> and tips
               from BuyerCompass delivered to your inbox.
             </h3>
-
-            <div className="flex gap-2 mb-4">
+            <div className="flex flex-col sm:flex-row gap-3 mb-4">
               <input
                 type="email"
                 placeholder="Email address"
@@ -54,18 +40,21 @@ export default function Footer() {
           </div>
         </div>
 
-        {/* BRAND + PINTEREST */}
+        {/* BRAND + SOCIAL */}
         <div className="border-t border-gray-700 pt-8 flex flex-col md:flex-row 
-            justify-between items-center">
+          justify-between items-center gap-6 md:gap-0">
 
           {/* LOGO */}
-          <div className="flex items-center gap-2 mb-4 md:mb-0">
-            <span className="text-2xl font-semibold">
-              BUYER<span className="text-blue-400">C</span>OMPASS
-            </span>
+          <div className="flex items-center gap-2">
+            <img
+              src="./logo.jpg"
+              alt="BuyerCompass Logo"
+              className="h-24 sm:h-28 md:h-32 w-auto" // bigger and responsive
+              style={{ backgroundColor: "transparent" }} 
+            />
           </div>
 
-          {/* SOCIAL (ONLY PINTEREST) */}
+          {/* PINTEREST */}
           <div>
             <a
               href="https://www.pinterest.com/"
@@ -73,7 +62,6 @@ export default function Footer() {
               rel="noopener noreferrer"
               className="flex items-center gap-2 hover:text-red-400 transition"
             >
-              {/* Pure CSS Pinterest Icon */}
               <div className="w-6 h-6 bg-red-500 text-white flex items-center justify-center rounded-full font-bold text-sm">
                 P
               </div>
