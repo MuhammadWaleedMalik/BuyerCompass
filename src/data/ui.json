@@ -1,8 +1,8 @@
 {
   "specialButtonColors": {
-    "trending": "blue",
-    "deals": "dark",
-    "gift-guides": "blue",
-    "default": "blue"
+    "trending": "#51A2D5",
+    "deals": "#51A2D5",
+    "gift-guides": "#51A2D5",
+    "default": "#51A2D5"
   }
 }

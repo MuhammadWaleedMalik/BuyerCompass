@@ -14,17 +14,32 @@ export default function Navigation() {
     setActiveDropdown(activeDropdown === slug ? null : slug);
   };
 
-  // Static palette — include every Tailwind class here so the JIT sees them.
+  // Map named colors to Tailwind classes
   const palette = {
-    blue: "bg-blue-600 text-white",       // simple blue
-    dark: "bg-blue-800 text-white",       // dark blue
-    // add more named palettes here if you need
+    blue: "bg-blue-600 text-white hover:bg-blue-700",
+    darkblue: "bg-blue-800 text-white hover:bg-blue-900",
+    red: "bg-red-600 text-white hover:bg-red-700",
+    green: "bg-green-600 text-white hover:bg-green-700",
+    yellow: "bg-yellow-400 text-black hover:bg-yellow-500",
+    default: "bg-blue-600 text-white hover:bg-blue-700"
   };
 
-  // Resolve token from ui.json to actual static class string
+  // Resolve token from ui.json to Tailwind class OR use raw hex
   const getButtonTheme = (type) => {
-    const token = ui.specialButtonColors[type] || ui.specialButtonColors.default || "blue";
-    return palette[token] || palette.blue;
+    const token = ui.specialButtonColors[type] || ui.specialButtonColors.default || "default";
+
+    // If token is a hex code, use inline style; otherwise use Tailwind class
+    if (/^#/.test(token)) {
+      return `text-white`; // fallback text color
+    } else {
+      return palette[token] || palette.default;
+    }
+  };
+
+  // Inline style for hex code buttons
+  const getButtonStyle = (type) => {
+    const token = ui.specialButtonColors[type] || ui.specialButtonColors.default || "#51A2D5";
+    return /^#/.test(token) ? { backgroundColor: token } : {};
   };
 
   return (
@@ -66,13 +81,14 @@ export default function Navigation() {
             {/* Special Buttons */}
             <div className="flex items-center space-x-3 ml-6">
               {specialButtons.map((btn) => {
-                const classes = getButtonTheme(btn.type || "default");
+                const classes = getButtonTheme(btn.type);
+                const style = getButtonStyle(btn.type);
                 return (
                   <Link
                     key={btn.slug}
                     to={`/${btn.slug}`}
-                    // include padding/shape classes here so they're static too
                     className={`text-sm font-semibold px-5 py-2 rounded-full transition-all duration-300 ${classes}`}
+                    style={style}
                   >
                     {btn.name}
                   </Link>
@@ -125,12 +141,14 @@ export default function Navigation() {
 
             <div className="pt-4 flex flex-col space-y-2">
               {specialButtons.map((btn) => {
-                const classes = getButtonTheme(btn.type || "default");
+                const classes = getButtonTheme(btn.type);
+                const style = getButtonStyle(btn.type);
                 return (
                   <Link
                     key={btn.slug}
                     to={`/${btn.slug}`}
                     className={`text-sm font-semibold px-5 py-2 rounded-full text-center ${classes}`}
+                    style={style}
                     onClick={() => setMobileMenuOpen(false)}
                   >
                     {btn.name}

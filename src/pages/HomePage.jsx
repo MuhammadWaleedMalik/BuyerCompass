@@ -17,6 +17,9 @@ export default function HomePage() {
   const [trendingProducts, setTrendingProducts] = useState([]);
   const [reviews, setReviews] = useState([]);
 
+  const themeLight = "#51A2D5";
+  const themeDark = "#15324E";
+
   useEffect(() => {
     // FEATURED / TRENDING / LATEST
     setFeaturedArticles(articlesData.articles.filter(a => a.is_featured).slice(0, 5));
@@ -51,7 +54,7 @@ export default function HomePage() {
   };
 
   return (
-    <div className="min-h-screen bg-gray-50">
+    <div className="min-h-screen" style={{ backgroundColor: "#ffffff" }}>
       <div className="max-w-[1440px] mx-auto px-4 sm:px-6 lg:px-8 py-8">
 
         {/* ------------------ TOP 3-COLUMN SECTION ------------------ */}
@@ -59,17 +62,18 @@ export default function HomePage() {
 
           {/* LEFT: FEATURED ARTICLES */}
           <div className="space-y-4">
-            <div className="bg-blue-500 text-white px-4 py-2 font-semibold rounded-lg mb-4 text-center lg:text-left">
+            <div className="px-4 py-2 font-semibold rounded-lg mb-4 text-center lg:text-left" style={{ backgroundColor: themeLight, color: "#ffffff" }}>
               THE LATEST
             </div>
             {featuredArticles.map(article => (
               <Link
                 key={article.id}
                 to={`/article/${article.slug}`}
-                className="block bg-white rounded-lg shadow-sm p-4 hover:shadow-md transition-shadow"
+                className="block rounded-lg shadow-sm p-4 hover:shadow-md transition-shadow"
+                style={{ backgroundColor: "#ffffff", color: themeDark }}
               >
-                <h3 className="font-semibold text-blue-600 mb-1">{article.title}</h3>
-                <p className="text-gray-500 text-sm">{article.excerpt}</p>
+                <h3 className="font-semibold mb-1" style={{ color: themeLight }}>{article.title}</h3>
+                <p className="text-sm">{article.excerpt}</p>
               </Link>
             ))}
           </div>
@@ -79,7 +83,8 @@ export default function HomePage() {
             {topRatedArticle && (
               <Link
                 to={`/article/${topRatedArticle.slug}`}
-                className="block bg-white rounded-lg shadow-lg overflow-hidden relative hover:shadow-2xl transition-shadow"
+                className="block rounded-lg shadow-lg overflow-hidden relative hover:shadow-2xl transition-shadow"
+                style={{ backgroundColor: "#ffffff", color: themeDark }}
               >
                 {topRatedArticle.image_url && (
                   <img
@@ -88,19 +93,14 @@ export default function HomePage() {
                     className="w-full h-96 object-cover"
                   />
                 )}
-
-                <div className="absolute top-4 left-4 bg-purple-600 text-white px-4 py-2 text-lg font-bold rounded-lg shadow-lg animate-pulse">
+                <div className="absolute top-4 left-4 px-4 py-2 text-lg font-bold rounded-lg shadow-lg animate-pulse" style={{ backgroundColor: themeDark, color: "#ffffff" }}>
                   TOP RATED
                 </div>
-
                 <div className="p-6">
                   <h2 className="text-3xl font-bold mb-2">{topRatedArticle.title}</h2>
-                  <p className="text-gray-600 mb-4">{topRatedArticle.excerpt}</p>
-                  <p className="text-sm text-gray-500 mb-2">By {topRatedArticle.author}</p>
-
-                  <p className="text-blue-600 font-medium hover:underline">
-                    Read Article →
-                  </p>
+                  <p className="mb-4">{topRatedArticle.excerpt}</p>
+                  <p className="text-sm mb-2">By {topRatedArticle.author}</p>
+                  <p className="font-medium" style={{ color: themeLight }}>Read Article →</p>
                 </div>
               </Link>
             )}
@@ -108,29 +108,18 @@ export default function HomePage() {
 
           {/* RIGHT: TOP DEALS */}
           <div className="space-y-4">
-            <div className="bg-blue-800 text-white px-4 py-2 inline-block font-semibold rounded-lg mb-4 text-center lg:text-left">
+            <div className="px-4 py-2 font-semibold rounded-lg mb-4 text-center lg:text-left" style={{ backgroundColor: themeDark, color: "#ffffff" }}>
               TOP DEALS
             </div>
             {topDeals.map(deal => (
-              <div key={deal.id} className="bg-white rounded-lg shadow-sm overflow-hidden hover:shadow-md transition-shadow">
+              <div key={deal.id} className="rounded-lg shadow-sm overflow-hidden hover:shadow-md transition-shadow" style={{ backgroundColor: "#ffffff", color: themeDark }}>
                 {deal.image_url && (
-                  <img
-                    src={deal.image_url}
-                    alt={deal.title}
-                    className="w-full h-32 object-cover"
-                  />
+                  <img src={deal.image_url} alt={deal.title} className="w-full h-32 object-cover" />
                 )}
                 <div className="p-4">
                   <h3 className="font-semibold text-sm mb-1">{deal.title}</h3>
-                  {deal.price && (
-                    <p className="text-green-600 font-semibold">${deal.price}</p>
-                  )}
-                  <Link
-                    to={deal.link || "#"}
-                    className="text-blue-600 text-sm hover:underline block mt-1"
-                  >
-                    View Deal
-                  </Link>
+                  {deal.price && <p className="font-semibold" style={{ color: themeLight }}>${deal.price}</p>}
+                  <Link to={deal.link || "#"} className="text-sm mt-1 block" style={{ color: themeLight }}>View Deal</Link>
                 </div>
               </div>
             ))}
@@ -138,42 +127,29 @@ export default function HomePage() {
         </div>
 
         {/* SEARCH BOX */}
-        <section className="mb-8 bg-white rounded-lg shadow-sm p-6">
-          <h2 className="text-2xl font-bold mb-4 text-center">
-            Check out our reviews before you buy anything. Ever.
-          </h2>
+        <section className="mb-8 rounded-lg p-6" style={{ backgroundColor: "#ffffff" }}>
+          <h2 className="text-2xl font-bold mb-4" style={{ color: themeDark }}>Check out our reviews before you buy anything. Ever.</h2>
           <form className="flex flex-col sm:flex-row gap-2">
             <input
               type="text"
               placeholder="What are you looking for today?"
-              className="flex-1 px-4 py-3 border border-gray-200 rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-300"
+              className="flex-1 px-4 py-3 rounded-lg focus:outline-none"
+              style={{ borderColor: themeLight }}
             />
-            <button className="px-8 py-3 bg-blue-500 hover:bg-blue-600 text-white rounded-lg font-semibold transition-all">
-              SEARCH
-            </button>
+            <button className="px-8 py-3 rounded-lg font-semibold" style={{ backgroundColor: themeLight, color: "#ffffff" }}>SEARCH</button>
           </form>
         </section>
 
         {/* LATEST ARTICLES */}
         <section className="mb-8">
-          <h2 className="text-2xl font-bold mb-6">LATEST ARTICLES</h2>
+          <h2 className="text-2xl font-bold mb-6" style={{ color: themeDark }}>LATEST ARTICLES</h2>
           <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
             {latestArticles.map(article => (
-              <Link
-                key={article.id}
-                to={`/article/${article.slug}`}
-                className="bg-white rounded-lg shadow-sm overflow-hidden hover:shadow-md transition-shadow"
-              >
-                {article.image_url && (
-                  <img
-                    src={article.image_url}
-                    alt={article.title}
-                    className="w-full h-48 object-cover"
-                  />
-                )}
+              <Link key={article.id} to={`/article/${article.slug}`} className="rounded-lg shadow-sm overflow-hidden hover:shadow-md transition-shadow" style={{ backgroundColor: "#ffffff", color: themeDark }}>
+                {article.image_url && <img src={article.image_url} alt={article.title} className="w-full h-48 object-cover" />}
                 <div className="p-4">
                   <h3 className="font-semibold mb-2">{article.title}</h3>
-                  <p className="text-gray-600 text-sm">{article.excerpt}</p>
+                  <p className="text-sm">{article.excerpt}</p>
                 </div>
               </Link>
             ))}
@@ -182,25 +158,15 @@ export default function HomePage() {
 
         {/* TRENDING ARTICLES */}
         <section className="mb-8">
-          <h2 className="text-2xl font-bold mb-6">WHAT'S TRENDING NOW</h2>
+          <h2 className="text-2xl font-bold mb-6" style={{ color: themeDark }}>WHAT'S TRENDING NOW</h2>
           <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
             {trendingArticles.map(article => (
-              <Link
-                key={article.id}
-                to={`/article/${article.slug}`}
-                className="bg-white rounded-lg shadow-sm overflow-hidden hover:shadow-md transition-shadow"
-              >
-                {article.image_url && (
-                  <img
-                    src={article.image_url}
-                    alt={article.title}
-                    className="w-full h-48 object-cover"
-                  />
-                )}
+              <Link key={article.id} to={`/article/${article.slug}`} className="rounded-lg shadow-sm overflow-hidden hover:shadow-md transition-shadow" style={{ backgroundColor: "#ffffff", color: themeDark }}>
+                {article.image_url && <img src={article.image_url} alt={article.title} className="w-full h-48 object-cover" />}
                 <div className="p-4">
                   <h3 className="font-semibold mb-2">{article.title}</h3>
-                  <p className="text-sm text-gray-600 mb-2">by {article.author}</p>
-                  <p className="text-sm text-gray-500">{article.excerpt}</p>
+                  <p className="text-sm mb-2">by {article.author}</p>
+                  <p className="text-sm">{article.excerpt}</p>
                 </div>
               </Link>
             ))}
@@ -209,21 +175,11 @@ export default function HomePage() {
 
         {/* EDITOR PICKS */}
         <section className="mb-8">
-          <h2 className="text-2xl font-bold mb-6">EDITOR’S PICKS</h2>
+          <h2 className="text-2xl font-bold mb-6" style={{ color: themeDark }}>EDITOR’S PICKS</h2>
           <div className="grid grid-cols-1 md:grid-cols-4 gap-6">
             {editorPicks.map(article => (
-              <Link
-                key={article.id}
-                to={`/article/${article.slug}`}
-                className="bg-white rounded-lg shadow-sm overflow-hidden hover:shadow-md transition-shadow"
-              >
-                {article.image_url && (
-                  <img
-                    src={article.image_url}
-                    alt={article.title}
-                    className="w-full h-40 object-cover"
-                  />
-                )}
+              <Link key={article.id} to={`/article/${article.slug}`} className="rounded-lg shadow-sm overflow-hidden hover:shadow-md transition-shadow" style={{ backgroundColor: "#ffffff", color: themeDark }}>
+                {article.image_url && <img src={article.image_url} alt={article.title} className="w-full h-40 object-cover" />}
                 <div className="p-4">
                   <h3 className="font-semibold">{article.title}</h3>
                 </div>
@@ -234,59 +190,33 @@ export default function HomePage() {
 
         {/* TRENDING PRODUCTS */}
         <section className="mb-8">
-          <h2 className="text-2xl font-bold mb-6">TRENDING PRODUCTS</h2>
+          <h2 className="text-2xl font-bold mb-6" style={{ color: themeDark }}>TRENDING PRODUCTS</h2>
           <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6">
             {trendingProducts.map(product => (
-              <a
-                key={product.id}
-                href={product.affiliate_link || "#"}
-                target="_blank"
-                rel="noopener noreferrer"
-                className="bg-white rounded-lg shadow-sm overflow-hidden hover:shadow-md transition-shadow"
-              >
-                {product.image_url && (
-                  <img
-                    src={product.image_url}
-                    alt={product.name}
-                    className="w-full h-48 object-cover"
-                  />
-                )}
+              <a key={product.id} href={product.affiliate_link || "#"} target="_blank" rel="noopener noreferrer" className="rounded-lg shadow-sm overflow-hidden hover:shadow-md transition-shadow" style={{ backgroundColor: "#ffffff", color: themeDark }}>
+                {product.image_url && <img src={product.image_url} alt={product.name} className="w-full h-48 object-cover" />}
                 <div className="p-4">
                   <h3 className="font-semibold mb-1">{product.name}</h3>
-                  <p className="text-sm text-gray-600 mb-2">{product.brand || "Brand"}</p>
-                  <p className="text-green-600 font-semibold">${product.discount_price}</p>
-                  <p className="line-through text-gray-400 text-sm">${product.price}</p>
+                  <p className="text-sm mb-2">{product.brand || "Brand"}</p>
+                  <p className="font-semibold" style={{ color: themeLight }}>${product.discount_price}</p>
+                  <p className="line-through text-sm" style={{ color: themeDark }}>${product.price}</p>
                 </div>
               </a>
             ))}
           </div>
         </section>
 
-        {/* TESTING LAB */}
-        <section className="mb-8 bg-blue-50 border border-blue-100 rounded-lg p-8">
-          <h2 className="text-3xl font-semibold mb-4 text-center text-gray-800">
-            BUYERCOMPASS TESTING LAB
-          </h2>
-          <p className="text-center mb-6 text-gray-600">
-            Our testing experts put a wide range of products to rigorous standards with unique insights for confident shopping decisions.
-          </p>
-        </section>
-
         {/* CLIENT REVIEWS */}
         <section className="mb-12">
-          <h2 className="text-2xl font-bold mb-6">What Our Clients Say</h2>
+          <h2 className="text-2xl font-bold mb-6" style={{ color: themeDark }}>What Our Clients Say</h2>
           <Slider {...sliderSettings}>
             {reviews.map(rev => (
               <div key={rev.id} className="px-2">
-                <div className="bg-white rounded-lg shadow-md p-6 flex flex-col sm:flex-row items-center gap-4">
-                  <img
-                    src={rev.image_url}
-                    alt={rev.name}
-                    className="w-12 h-12 rounded-full object-cover"
-                  />
+                <div className="rounded-lg shadow-md p-6 flex flex-col sm:flex-row items-center gap-4" style={{ backgroundColor: "#ffffff", color: themeDark }}>
+                  <img src={rev.avatar || `https://i.pravatar.cc/50?img=${rev.id}`} alt={rev.name} className="w-12 h-12 rounded-full object-cover"/>
                   <div>
-                    <p className="text-gray-700 mb-1 font-medium">"{rev.comment}"</p>
-                    <p className="text-sm font-semibold text-gray-900">- {rev.name}</p>
+                    <p className="mb-1 font-medium">"{rev.comment}"</p>
+                    <p className="text-sm font-semibold">- {rev.name}</p>
                     <p className="text-yellow-400 mt-1">
                       {"★".repeat(rev.rating) + "☆".repeat(5 - rev.rating)}
                     </p>
