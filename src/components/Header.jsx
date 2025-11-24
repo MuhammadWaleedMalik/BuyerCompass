@@ -24,7 +24,7 @@ export default function Header({ onSearch }) {
             <div className="flex items-center gap-2">
               <span className="text-lg">🎄</span>
               <p className="font-medium">
-                Christmas 2024 Gift Guides are live!
+                Christmas 2025 Gift Guides are live!
               </p>
             </div>
             <div className="flex items-center gap-2">
