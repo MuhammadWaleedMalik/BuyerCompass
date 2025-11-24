@@ -1,6 +1,6 @@
-import { Search } from "lucide-react";
 import { useState } from "react";
 import { Link } from "react-router-dom";
+import { Search } from "lucide-react";
 
 export default function Header({ onSearch }) {
   const [searchQuery, setSearchQuery] = useState("");
@@ -19,10 +19,12 @@ export default function Header({ onSearch }) {
           {/* LEFT: LOGO + NAV */}
           <div className="flex items-center gap-8">
             {/* LOGO / BRAND */}
-            <Link to="/" className="flex items-center gap-2">
-              <div className="h-9 w-9 rounded-full bg-[#3C98D7] flex items-center justify-center text-white font-bold text-lg">
-                B
-              </div>
+            <Link to="/" className="flex items-center gap-3">
+              <img
+                src="/logo.jpg"
+                alt="BuyerCompass Logo"
+                className="h-10 sm:h-12 w-auto rounded-md"
+              />
               <div className="flex flex-col leading-tight">
                 <span className="text-white font-semibold text-lg">
                   Buyer<span className="text-[#3C98D7]">Compass</span>
@@ -33,7 +35,7 @@ export default function Header({ onSearch }) {
               </div>
             </Link>
 
-            {/* NAV LINKS */}
+            {/* NAV LINKS (desktop) */}
             <nav className="hidden md:flex items-center gap-4 text-sm">
               <Link
                 to="/"
@@ -84,6 +86,40 @@ export default function Header({ onSearch }) {
             </div>
           </form>
         </div>
+
+        {/* MOBILE NAV (optional simple version) */}
+        <nav className="mt-3 flex md:hidden items-center gap-4 text-sm overflow-x-auto">
+          <Link
+            to="/"
+            className="text-gray-100 hover:text-[#3C98D7] transition-colors whitespace-nowrap"
+          >
+            Home
+          </Link>
+          <Link
+            to="/trending"
+            className="text-gray-100 hover:text-[#3C98D7] transition-colors whitespace-nowrap"
+          >
+            Trending
+          </Link>
+          <Link
+            to="/deals"
+            className="text-gray-100 hover:text-[#3C98D7] transition-colors whitespace-nowrap"
+          >
+            Deals
+          </Link>
+          <Link
+            to="/gift-guides"
+            className="text-gray-100 hover:text-[#3C98D7] transition-colors whitespace-nowrap"
+          >
+            Gift Guides
+          </Link>
+          <Link
+            to="/about"
+            className="text-gray-100 hover:text-[#3C98D7] transition-colors whitespace-nowrap"
+          >
+            About
+          </Link>
+        </nav>
       </div>
     </header>
   );
