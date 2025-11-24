@@ -2,13 +2,17 @@
 @tailwind components;
 @tailwind utilities;
 
-/* === Snow animation === */
+/* === CHRISTMAS SNOW EFFECT === */
+
 .snowflake {
   position: absolute;
+  top: -10%;
   background: white;
-  border-radius: 50%;
+  border-radius: 9999px;
   box-shadow: 0 0 10px rgba(255, 255, 255, 0.7);
-  animation: snow-fall linear infinite;
+  animation-name: snow-fall;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
 }
 
 @keyframes snow-fall {
