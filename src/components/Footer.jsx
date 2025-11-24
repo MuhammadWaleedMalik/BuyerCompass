@@ -86,7 +86,7 @@ export default function Footer() {
           {/* LOGO */}
           <div className="flex items-center gap-2">
             <img
-              src="./logo.jpg"
+              src="/logo.jpg"
               alt="BuyerCompass Logo"
               className="h-24 sm:h-28 md:h-32 w-auto"
               style={{ backgroundColor: "transparent" }}
