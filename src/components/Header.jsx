@@ -25,7 +25,7 @@ export default function Header({ onSearch }) {
               <img
                 src="/logo.jpg"
                 alt="BuyerCompass Logo"
-                className="h-14 sm:h-16 w-auto rounded-md"
+                className="h-16 sm:h-18 w-auto rounded-md"
               />
               <div className="flex flex-col leading-tight">
                 <span className="text-[#0E2847] font-semibold text-lg">
