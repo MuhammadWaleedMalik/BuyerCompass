@@ -1,7 +1,7 @@
 import { Link } from "react-router-dom";
 
 export default function Footer() {
-  // Change this to true AFTER you are accepted into Amazon Associates
+  // Set this true AFTER you are accepted into Amazon Associates
   const isAffiliateActive = false;
 
   return (
@@ -13,35 +13,35 @@ export default function Footer() {
 
           {/* LINKS */}
           <div>
-            <h3 className="font-semibold mb-4 text-blue-600">LINKS</h3>
+            <h3 className="font-semibold mb-4 text-[#3C98D7]">LINKS</h3>
             <ul className="space-y-2 text-sm">
               <li>
-                <Link to="/about" className="hover:text-blue-500 transition-colors">
+                <Link to="/about" className="hover:text-[#3C98D7] transition-colors">
                   About
                 </Link>
               </li>
               <li>
-                <Link to="/contact" className="hover:text-blue-500 transition-colors">
+                <Link to="/contact" className="hover:text-[#3C98D7] transition-colors">
                   Contact
                 </Link>
               </li>
               <li>
                 <Link
                   to="/privacy-policy"
-                  className="hover:text-blue-500 transition-colors"
+                  className="hover:text-[#3C98D7] transition-colors"
                 >
                   Privacy Policy
                 </Link>
               </li>
               <li>
-                <Link to="/terms" className="hover:text-blue-500 transition-colors">
+                <Link to="/terms" className="hover:text-[#3C98D7] transition-colors">
                   Terms and Conditions
                 </Link>
               </li>
               <li>
                 <Link
                   to="/affiliate-disclosure"
-                  className="hover:text-blue-500 transition-colors"
+                  className="hover:text-[#3C98D7] transition-colors"
                 >
                   Affiliate Disclosure
                 </Link>
@@ -52,18 +52,21 @@ export default function Footer() {
           {/* NEWSLETTER */}
           <div>
             <h3 className="font-semibold mb-4 leading-relaxed">
-              Get <span className="text-blue-600">exclusive content, advice,</span> and tips
-              from BuyerCompass delivered to your inbox.
+              Get{" "}
+              <span className="text-[#3C98D7]">
+                exclusive content, advice,
+              </span>{" "}
+              and tips from BuyerCompass delivered to your inbox.
             </h3>
             <div className="flex flex-col sm:flex-row gap-3 mb-4">
               <input
                 type="email"
                 placeholder="Email address"
                 className="flex-1 px-4 py-2 rounded-lg border border-gray-300 bg-white
-                focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-transparent"
+                focus:outline-none focus:ring-2 focus:ring-[#3C98D7] focus:border-transparent"
               />
               <button
-                className="px-6 py-2 bg-blue-600 hover:bg-blue-700 
+                className="px-6 py-2 bg-[#3C98D7] hover:bg-[#0E2847] 
                 text-white rounded-lg font-medium transition-colors shadow hover:shadow-md"
               >
                 SUBMIT
@@ -71,7 +74,7 @@ export default function Footer() {
             </div>
           </div>
 
-          {/* (Optional) third column – can stay empty or be used later */}
+          {/* OPTIONAL THIRD COLUMN (kept empty for now) */}
           <div className="hidden md:block" />
         </div>
 
@@ -96,38 +99,42 @@ export default function Footer() {
               href="https://www.pinterest.com/"
               target="_blank"
               rel="noopener noreferrer"
-              className="flex items-center gap-2 hover:text-red-500 transition-colors"
+              className="flex items-center gap-2 hover:text-[#A9631F] transition-colors"
             >
-              <div className="w-6 h-6 bg-red-500 text-white flex items-center justify-center rounded-full font-bold text-sm">
+              <div className="w-6 h-6 bg-[#A9631F] text-white flex items-center justify-center rounded-full font-bold text-sm">
                 P
               </div>
-              <span className="text-sm">Pinterest</span>
+              <span className="text-sm text-gray-700">Pinterest</span>
             </a>
           </div>
         </div>
 
-        {/* COPYRIGHT + AFFILIATE NOTICE */}
-        <div className="text-center text-sm text-gray-500 mt-8 space-y-3">
-          <p>© 2025 BuyerCompass</p>
-          <p>All Rights Reserved.</p>
+        {/* COPYRIGHT + AFFILIATE NOTICE BAR */}
+        <div className="mt-8 rounded-lg overflow-hidden">
+          <div className="bg-[#0E2847] text-gray-100 text-center text-sm py-4 px-4 space-y-2">
+            <p>© 2025 BuyerCompass</p>
+            <p>All Rights Reserved.</p>
 
-          {/* Pre-affiliate (current situation) */}
-          {!isAffiliateActive && (
-            <p className="max-w-2xl mx-auto text-xs text-gray-500">
-              BuyerCompass is currently preparing to participate in affiliate programs
-              (including Amazon Associates). We do not earn any commissions from links
-              at this time. Once our participation is active, we will clearly update
-              this notice and our Affiliate Disclosure.
-            </p>
-          )}
+            {/* Pre-affiliate (current state) */}
+            {!isAffiliateActive && (
+              <p className="max-w-2xl mx-auto text-xs text-[#649AB7]">
+                BuyerCompass is currently preparing to participate in affiliate
+                programs (including Amazon Associates). We do not earn any
+                commissions from links at this time. Once our participation is
+                active, we will clearly update this notice and our Affiliate
+                Disclosure.
+              </p>
+            )}
 
-          {/* After approval – switch isAffiliateActive to true */}
-          {isAffiliateActive && (
-            <p className="max-w-2xl mx-auto text-xs text-gray-600">
-              As an Amazon Associate I earn from qualifying purchases. We may earn a
-              commission when you buy through links on our site, at no extra cost to you.
-            </p>
-          )}
+            {/* After approval – switch isAffiliateActive to true */}
+            {isAffiliateActive && (
+              <p className="max-w-2xl mx-auto text-xs text-[#649AB7]">
+                As an Amazon Associate I earn from qualifying purchases. We may
+                earn a commission when you buy through links on our site, at no
+                extra cost to you.
+              </p>
+            )}
+          </div>
         </div>
       </div>
     </footer>
