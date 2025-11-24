@@ -2,6 +2,9 @@ import { useState } from "react";
 import { Link } from "react-router-dom";
 import { Search } from "lucide-react";
 
+// Toggle Christmas theme on/off here
+const ENABLE_CHRISTMAS_THEME = true;
+
 export default function Header({ onSearch }) {
   const [searchQuery, setSearchQuery] = useState("");
 
@@ -14,21 +17,46 @@ export default function Header({ onSearch }) {
 
   return (
     <header className="bg-white border-b border-gray-200 shadow-sm">
-      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-4">
+      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-3">
+        {/* CHRISTMAS ANNOUNCEMENT BAR (only if theme enabled) */}
+        {ENABLE_CHRISTMAS_THEME && (
+          <div className="mb-4 rounded-xl bg-gradient-to-r from-[#0E2847] via-[#3C98D7] to-[#A9631F] px-4 py-2 text-xs sm:text-sm text-white flex flex-col sm:flex-row items-center justify-between gap-2">
+            <div className="flex items-center gap-2">
+              <span className="text-lg">🎄</span>
+              <p className="font-medium">
+                Christmas 2024 Gift Guides are live!
+              </p>
+            </div>
+            <div className="flex items-center gap-2">
+              <Link
+                to="/gift-guides"
+                className="px-3 py-1 rounded-full bg-white/95 text-[#0E2847] text-xs font-semibold shadow hover:bg-[#F9FAFB] transition"
+              >
+                Browse gift guides
+              </Link>
+              <Link
+                to="/deals"
+                className="hidden sm:inline-block text-xs underline underline-offset-4 text-white/90 hover:text-white"
+              >
+                See Christmas deals →
+              </Link>
+            </div>
+          </div>
+        )}
+
+        {/* MAIN HEADER ROW */}
         <div className="flex flex-col gap-4 md:flex-row md:items-center md:justify-between">
-          
-          {/* LEFT: LOGO + BRAND + NAV */}
+          {/* LEFT: LOGO + NAV */}
           <div className="flex items-center gap-10">
-            
-            {/* LOGO */}
+            {/* LOGO + BRAND */}
             <Link to="/" className="flex items-center gap-3">
               <img
                 src="/logo.jpg"
                 alt="BuyerCompass Logo"
-                className="h-16 sm:h-18 w-auto rounded-md"
+                className="h-16 sm:h-20 w-auto rounded-md"
               />
               <div className="flex flex-col leading-tight">
-                <span className="text-[#0E2847] font-semibold text-lg">
+                <span className="text-[#0E2847] font-semibold text-lg sm:text-xl">
                   Buyer<span className="text-[#3C98D7]">Compass</span>
                 </span>
                 <span className="text-xs text-[#0E2847]/60">
@@ -99,7 +127,7 @@ export default function Header({ onSearch }) {
           </Link>
           <Link
             to="/trending"
-            className="text-[#0E2847] hover:text-[#3C98D7] transition-colers whitespace-nowrap"
+            className="text-[#0E2847] hover:text-[#3C98D7] transition-colors whitespace-nowrap"
           >
             Trending
           </Link>
