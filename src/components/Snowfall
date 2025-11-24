@@ -1,35 +1,32 @@
-// src/components/Snowfall.jsx
-import React from "react";
-
-const Snowfall = ({ count = 80 }) => {
+export default function Snowfall({ count = 80 }) {
   const flakes = Array.from({ length: count });
 
   return (
-    <div className="pointer-events-none fixed inset-0 z-40 overflow-hidden">
+    <div className="pointer-events-none fixed inset-0 z-[9999] overflow-hidden">
       {flakes.map((_, i) => {
-        const size = Math.random() * 4 + 2; // 2px – 6px
-        const left = Math.random() * 100; // vw
-        const duration = Math.random() * 10 + 10; // 10s – 20s
-        const delay = Math.random() * 10 * -1; // negative so animation is "in progress"
-        const opacity = Math.random() * 0.5 + 0.3;
+        const size = Math.random() * 5 + 2; // 2–7px
+        const left = Math.random() * 100;
+        const duration = Math.random() * 10 + 10;
+        const delay = Math.random() * -20;
 
         return (
           <span
             key={i}
-            className="snowflake"
+            className="snowflake absolute block"
             style={{
               left: `${left}vw`,
               width: `${size}px`,
               height: `${size}px`,
               animationDuration: `${duration}s`,
               animationDelay: `${delay}s`,
-              opacity,
+              background: "white",
+              borderRadius: "50%",
+              position: "absolute",
+              top: "-10%",
             }}
-          />
+          ></span>
         );
       })}
     </div>
   );
-};
-
-export default Snowfall;
+}
