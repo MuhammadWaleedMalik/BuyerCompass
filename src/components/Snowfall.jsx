@@ -21,7 +21,7 @@ export default function Snowfall({ count = 80 }) {
             className="snowflake"
             style={{
               left: `${left}vw`,
-              fontSize: `${size * 18}px`, // visual size of flakes
+              fontSize: `${size * 12}px`, // visual size of flakes
               animationDuration: `${duration}s`,
               animationDelay: `${delay}s`,
             }}
