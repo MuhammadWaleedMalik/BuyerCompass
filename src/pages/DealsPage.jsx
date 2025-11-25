@@ -1,13 +1,38 @@
 import { useEffect, useState } from "react";
-import { getDeals, getArticles } from "../lib/data";
+import data from "../data/data.json";
+import articlesData from "../data/articles.json";
 
 export default function DealsPage() {
   const [topDeals, setTopDeals] = useState([]);
   const [dealArticles, setDealArticles] = useState([]);
 
   useEffect(() => {
-    setTopDeals(getDeals().slice(0, 10));
-    setDealArticles(getArticles().slice(0, 6));
+    // Flatten products from data.json
+    const allProducts = [];
+    let idCounter = 1;
+    data.categories.forEach(cat => {
+      if (cat.products) {
+        cat.products.forEach(sub => {
+          if (sub.item) {
+            sub.item.forEach(item => {
+              allProducts.push({
+                id: item.id || `prod-${idCounter++}`,
+                name: item.name,
+                slug: item.slug || item.name.toLowerCase().replace(/ /g, '-').replace(/[^\w-]+/g, ''),
+                description: item.description,
+                price: item.priceText || "Check Price",
+                image_url: item.image || "https://placehold.co/600x400?text=No+Image",
+                category_id: cat.slug,
+                affiliate_link: item.priceUrl || "#"
+              });
+            });
+          }
+        });
+      }
+    });
+
+    setTopDeals(allProducts.slice(0, 10));
+    setDealArticles(articlesData.articles.slice(0, 6));
   }, []);
 
   return (

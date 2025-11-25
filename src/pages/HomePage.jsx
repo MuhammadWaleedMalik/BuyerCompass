@@ -1,7 +1,7 @@
 import { useEffect, useState } from "react";
 import { Link } from "react-router-dom";
-import Slider from "react-slick"; 
-import mockData from "../data/mockData.json";
+import Slider from "react-slick";
+import data from "../data/data.json";
 import reviewsData from "../data/reviews.json";
 import articlesData from "../data/articles.json";
 import "slick-carousel/slick/slick.css";
@@ -27,15 +27,39 @@ export default function HomePage() {
     setLatestArticles([...articlesData.articles].sort((a, b) => new Date(b.created_at) - new Date(a.created_at)).slice(0, 8));
     setEditorPicks(articlesData.articles.filter(a => a.is_featured && a.is_trending).slice(0, 4));
 
-    // ⭐ RANDOM TOP-RATED ARTICLE (center)
+    // ⭐ RANDOM TOP-RATED ARTICLE (center) - Fixed to first article for consistency
     const allArticles = articlesData.articles;
-    const random = allArticles[Math.floor(Math.random() * allArticles.length)];
+    const random = allArticles[0];
     setTopRatedArticle(random);
 
     // DEALS + PRODUCTS
-    const deals = mockData.deals.filter(d => d.is_featured);
-    setTopDeals(deals.slice(1, 6));
-    setTrendingProducts(mockData.products.slice(0, 6));
+    // Flatten products from data.json
+    const allProducts = [];
+    let idCounter = 1;
+    data.categories.forEach(cat => {
+      if (cat.products) {
+        cat.products.forEach(sub => {
+          if (sub.item) {
+            sub.item.forEach(item => {
+              allProducts.push({
+                id: item.id || `prod-${idCounter++}`,
+                name: item.name,
+                slug: item.slug || item.name.toLowerCase().replace(/ /g, '-').replace(/[^\w-]+/g, ''),
+                description: item.description,
+                price: item.priceText || "Check Price",
+                image_url: item.image || "https://placehold.co/600x400?text=No+Image",
+                category_id: cat.slug,
+                affiliate_link: item.priceUrl || "#"
+              });
+            });
+          }
+        });
+      }
+    });
+
+    // Use fixed products for deals and trending to be deterministic
+    setTopDeals(allProducts.slice(0, 5));
+    setTrendingProducts(allProducts.slice(5, 11));
     setReviews(reviewsData);
   }, []);
 
@@ -213,7 +237,7 @@ export default function HomePage() {
             {reviews.map(rev => (
               <div key={rev.id} className="px-2">
                 <div className="rounded-lg shadow-md p-6 flex flex-col sm:flex-row items-center gap-4" style={{ backgroundColor: "#ffffff", color: themeDark }}>
-                  <img src={rev.avatar || `https://i.pravatar.cc/50?img=${rev.id}`} alt={rev.name} className="w-12 h-12 rounded-full object-cover"/>
+                  <img src={rev.avatar || `https://i.pravatar.cc/50?img=${rev.id}`} alt={rev.name} className="w-12 h-12 rounded-full object-cover" />
                   <div>
                     <p className="mb-1 font-medium">"{rev.comment}"</p>
                     <p className="text-sm font-semibold">- {rev.name}</p>

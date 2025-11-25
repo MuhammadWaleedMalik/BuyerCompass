@@ -1,7 +1,7 @@
 import { useEffect, useState } from 'react';
 import { Link, useParams } from 'react-router-dom';
 import articlesData from '../data/articles.json';
-import mockData from '../data/mockData.json'; 
+import data from '../data/data.json';
 
 export default function ArticlePage() {
   const { slug } = useParams();
@@ -28,11 +28,34 @@ export default function ArticlePage() {
       setRelatedArticles(relArts);
 
       // NEW — Related products based on category
-      const relProds = mockData.products
-        .filter((prod) => prod.category_id === foundArticle.category_id)
-        .slice(0, 4);
+      // Flatten products from data.json
+      const allProducts = [];
+      let idCounter = 1;
+      data.categories.forEach(cat => {
+        if (cat.products) {
+          cat.products.forEach(sub => {
+            if (sub.item) {
+              sub.item.forEach(item => {
+                allProducts.push({
+                  id: item.id || `prod-${idCounter++}`,
+                  name: item.name,
+                  slug: item.slug || item.name.toLowerCase().replace(/ /g, '-').replace(/[^\w-]+/g, ''),
+                  description: item.description,
+                  price: item.priceText || "Check Price",
+                  image_url: item.image || "https://placehold.co/600x400?text=No+Image",
+                  category_id: cat.slug,
+                  affiliate_link: item.priceUrl || "#"
+                });
+              });
+            }
+          });
+        }
+      });
 
-      setRelatedProducts(relProds);
+      // Use fixed products for related products to be deterministic
+      // Ideally filter by category if possible, but matching might be tricky.
+      // For now, just take the first 4 products to ensure consistency.
+      setRelatedProducts(allProducts.slice(0, 4));
     }
   }, [slug]);
 

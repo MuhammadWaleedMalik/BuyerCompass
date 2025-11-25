@@ -1,11 +1,11 @@
 import { useEffect, useState } from "react";
-import { getArticles } from "../lib/data";
+import articlesData from "../data/articles.json";
 
 export default function GiftGuidesPage() {
   const [giftGuideArticles, setGiftGuideArticles] = useState([]);
 
   useEffect(() => {
-    setGiftGuideArticles(getArticles().slice(0, 12));
+    setGiftGuideArticles(articlesData.articles.slice(0, 12));
   }, []);
 
   return (

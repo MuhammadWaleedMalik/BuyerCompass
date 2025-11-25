@@ -1,11 +1,11 @@
 import { useEffect, useState } from "react";
-import {  getTrendingArticles } from "../lib/data";
+import articlesData from "../data/articles.json";
 
 export default function TrendingPage() {
   const [trendingArticles, setTrendingArticles] = useState([]);
 
   useEffect(() => {
-    const data = getTrendingArticles() || [];
+    const data = articlesData.articles.filter(a => a.is_trending);
     setTrendingArticles(data);
   }, []);
 
@@ -22,7 +22,7 @@ export default function TrendingPage() {
             {trendingArticles.map((article) => (
               <a
                 key={article.id}
-                href={`/article/${article.slug}`}
+                href={`/ article / ${article.slug} `}
                 className="bg-white rounded-lg shadow-sm overflow-hidden hover:shadow-md transition-shadow"
               >
                 {article.image_url ? (

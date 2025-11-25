@@ -37,7 +37,7 @@ function App() {
           <Route path="/terms" element={<Terms />} />
           <Route path="/about" element={<About />} />
 
-        
+
 
           <Route path="/article/:slug" element={<ArticlePage />} />
 
