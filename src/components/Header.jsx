@@ -80,6 +80,24 @@ export default function Header({ onSearch }) {
               >
                 About
               </Link>
+              <Link
+                to="/contact"
+                className="text-[#0E2847] hover:text-[#3C98D7] transition-colors"
+              >
+                Contact
+              </Link>
+              <Link
+                to="/privacy-policy"
+                className="text-[#0E2847] hover:text-[#3C98D7] transition-colors"
+              >
+                Privacy
+              </Link>
+              <Link
+                to="/terms"
+                className="text-[#0E2847] hover:text-[#3C98D7] transition-colors"
+              >
+                Terms
+              </Link>
             </nav>
           </div>
 
@@ -131,6 +149,24 @@ export default function Header({ onSearch }) {
             className="text-[#0E2847] hover:text-[#3C98D7] transition-colors whitespace-nowrap"
           >
             About
+          </Link>
+          <Link
+            to="/contact"
+            className="text-[#0E2847] hover:text-[#3C98D7] transition-colors whitespace-nowrap"
+          >
+            Contact
+          </Link>
+          <Link
+            to="/privacy-policy"
+            className="text-[#0E2847] hover:text-[#3C98D7] transition-colors whitespace-nowrap"
+          >
+            Privacy
+          </Link>
+          <Link
+            to="/terms"
+            className="text-[#0E2847] hover:text-[#3C98D7] transition-colors whitespace-nowrap"
+          >
+            Terms
           </Link>
         </nav>
       </div>

@@ -21,16 +21,16 @@ export default function HomePage() {
   const themeDark = "#15324E";
 
   useEffect(() => {
-    // FEATURED / TRENDING / LATEST
-    setFeaturedArticles(articlesData.articles.filter(a => a.is_featured).slice(0, 5));
+    // FEATURED / TRENDING / LATEST - Increased featured articles to 7
+    setFeaturedArticles(articlesData.articles.filter(a => a.is_featured).slice(0, 7));
     setTrendingArticles(articlesData.articles.filter(a => a.is_trending).slice(0, 6));
     setLatestArticles([...articlesData.articles].sort((a, b) => new Date(b.created_at) - new Date(a.created_at)).slice(0, 8));
     setEditorPicks(articlesData.articles.filter(a => a.is_featured && a.is_trending).slice(0, 4));
 
-    // ⭐ RANDOM TOP-RATED ARTICLE (center) - Fixed to first article for consistency
+    // ⭐ RANDOM TOP-RATED ARTICLE (center)
     const allArticles = articlesData.articles;
-    const random = allArticles[0];
-    setTopRatedArticle(random);
+    const randomIndex = Math.floor(Math.random() * allArticles.length);
+    setTopRatedArticle(allArticles[randomIndex]);
 
     // DEALS + PRODUCTS
     // Flatten products from data.json
@@ -57,9 +57,12 @@ export default function HomePage() {
       }
     });
 
-    // Use fixed products for deals and trending to be deterministic
-    setTopDeals(allProducts.slice(0, 5));
-    setTrendingProducts(allProducts.slice(5, 11));
+    // Randomize products - shuffle the array
+    const shuffled = [...allProducts].sort(() => Math.random() - 0.5);
+
+    // Use random products for deals (4 items) and trending (4 items)
+    setTopDeals(shuffled.slice(0, 4));
+    setTrendingProducts(shuffled.slice(4, 8));
     setReviews(reviewsData);
   }, []);
 
@@ -102,32 +105,30 @@ export default function HomePage() {
             ))}
           </div>
 
-          {/* ⭐ CENTER: RANDOM TOP-RATED ARTICLE ⭐ */}
+          {/* CENTER: 2 FEATURED ARTICLES WITH IMAGES */}
           <div className="space-y-4">
-            {topRatedArticle && (
+            {featuredArticles.slice(0, 2).map(article => (
               <Link
-                to={`/article/${topRatedArticle.slug}`}
+                key={article.id}
+                to={`/article/${article.slug}`}
                 className="block rounded-lg shadow-lg overflow-hidden relative hover:shadow-2xl transition-shadow"
                 style={{ backgroundColor: "#ffffff", color: themeDark }}
               >
-                {topRatedArticle.image_url && (
+                {article.image_url && (
                   <img
-                    src={topRatedArticle.image_url}
-                    alt={topRatedArticle.title}
-                    className="w-full h-96 object-cover"
+                    src={article.image_url}
+                    alt={article.title}
+                    className="w-full h-48 object-cover"
                   />
                 )}
-                <div className="absolute top-4 left-4 px-4 py-2 text-lg font-bold rounded-lg shadow-lg animate-pulse" style={{ backgroundColor: themeDark, color: "#ffffff" }}>
-                  TOP RATED
-                </div>
                 <div className="p-6">
-                  <h2 className="text-3xl font-bold mb-2">{topRatedArticle.title}</h2>
-                  <p className="mb-4">{topRatedArticle.excerpt}</p>
-                  <p className="text-sm mb-2">By {topRatedArticle.author}</p>
+                  <h2 className="text-xl font-bold mb-2">{article.title}</h2>
+                  <p className="mb-2 text-sm">{article.excerpt}</p>
+                  <p className="text-sm mb-2">By {article.author}</p>
                   <p className="font-medium" style={{ color: themeLight }}>Read Article →</p>
                 </div>
               </Link>
-            )}
+            ))}
           </div>
 
           {/* RIGHT: TOP DEALS */}
@@ -215,7 +216,7 @@ export default function HomePage() {
         {/* TRENDING PRODUCTS */}
         <section className="mb-8">
           <h2 className="text-2xl font-bold mb-6" style={{ color: themeDark }}>TRENDING PRODUCTS</h2>
-          <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6">
+          <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-6">
             {trendingProducts.map(product => (
               <Link key={product.id} to={`/product/${product.slug}`} className="rounded-lg shadow-sm overflow-hidden hover:shadow-md transition-shadow" style={{ backgroundColor: "#ffffff", color: themeDark }}>
                 {product.image_url && <img src={product.image_url} alt={product.name} className="w-full h-48 object-cover" />}
