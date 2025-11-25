@@ -73,24 +73,7 @@ export default function Header({ onSearch }) {
               >
                 Home
               </Link>
-              <Link
-                to="/trending"
-                className="text-[#0E2847] hover:text-[#3C98D7] transition-colors"
-              >
-                Trending
-              </Link>
-              <Link
-                to="/deals"
-                className="text-[#0E2847] hover:text-[#3C98D7] transition-colors"
-              >
-                Deals
-              </Link>
-              <Link
-                to="/gift-guides"
-                className="text-[#0E2847] hover:text-[#3C98D7] transition-colors"
-              >
-                Gift Guides
-              </Link>
+
               <Link
                 to="/about"
                 className="text-[#0E2847] hover:text-[#3C98D7] transition-colors"

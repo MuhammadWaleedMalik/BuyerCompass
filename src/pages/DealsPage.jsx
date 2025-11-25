@@ -1,4 +1,5 @@
 import { useEffect, useState } from "react";
+import { Link } from "react-router-dom";
 import data from "../data/data.json";
 import articlesData from "../data/articles.json";
 
@@ -126,13 +127,9 @@ export default function DealsPage() {
                       />
                     )}
 
-                    <h3 className="font-semibold text-sm mb-2">{deal.title}</h3>
+                    <h3 className="font-semibold text-sm mb-2">{deal.name}</h3>
 
-                    {deal.price && (
-                      <p className="text-green-600 font-semibold text-lg mb-2">
-                        ${deal.price}
-                      </p>
-                    )}
+                    {/* Price removed */}
 
                     {deal.description && (
                       <p className="text-xs text-gray-600 mb-2">
@@ -140,14 +137,12 @@ export default function DealsPage() {
                       </p>
                     )}
 
-                    {deal.link && (
-                      <a
-                        href={deal.link}
-                        className="text-blue-600 text-sm hover:underline block"
-                      >
-                        View all deals →
-                      </a>
-                    )}
+                    <Link
+                      to={`/product/${deal.slug}`}
+                      className="text-blue-600 text-sm hover:underline block"
+                    >
+                      View details →
+                    </Link>
 
                   </div>
                 ))}

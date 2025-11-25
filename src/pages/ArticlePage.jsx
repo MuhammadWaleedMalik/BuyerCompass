@@ -136,11 +136,9 @@ export default function ArticlePage() {
 
             <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-6">
               {relatedProducts.map((prod) => (
-                <a
+                <Link
                   key={prod.id}
-                  href={prod.affiliate_link || "#"}
-                  target="_blank"
-                  rel="noopener noreferrer"
+                  to={`/product/${prod.slug}`}
                   className="bg-white rounded-lg shadow-sm overflow-hidden hover:shadow-md transition-shadow"
                 >
                   {prod.image_url && (
@@ -156,10 +154,10 @@ export default function ArticlePage() {
                     <p className="text-sm text-gray-600 mb-2">
                       {prod.brand || "Brand"}
                     </p>
-                    <p className="text-green-600 font-semibold">${prod.discount_price}</p>
-                    <p className="line-through text-gray-400 text-sm">${prod.price}</p>
+                    {/* Price removed */}
+                    <span className="text-green-600 font-semibold">View Details</span>
                   </div>
-                </a>
+                </Link>
               ))}
             </div>
           </section>

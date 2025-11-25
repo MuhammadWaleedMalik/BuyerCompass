@@ -1,5 +1,5 @@
 import { useEffect, useState } from "react";
-import { useParams } from "react-router-dom";
+import { useParams, Link } from "react-router-dom";
 import data from "../data/data.json";
 
 export default function CategoryPage() {
@@ -70,8 +70,8 @@ export default function CategoryPage() {
                   alt={item.name}
                   className="w-full h-64 object-cover group-hover:opacity-80 transition-opacity duration-300"
                   onError={(e) =>
-                    (e.target.src =
-                      "https://via.placeholder.com/400x300?text=No+Image")
+                  (e.target.src =
+                    "https://via.placeholder.com/400x300?text=No+Image")
                   }
                 />
                 <div className="absolute bottom-0 left-0 right-0 bg-black bg-opacity-40 p-4">
@@ -99,17 +99,18 @@ export default function CategoryPage() {
         {/* PRODUCTS GRID */}
         <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6">
           {items.map((item, idx) => (
-            <div
+            <Link
+              to={`/product/${item.slug || item.name.toLowerCase().replace(/ /g, '-').replace(/[^\w-]+/g, '')}`}
               key={idx}
-              className="bg-white rounded-lg shadow-md overflow-hidden hover:shadow-xl hover:scale-105 transform transition-all duration-300 relative"
+              className="bg-white rounded-lg shadow-md overflow-hidden hover:shadow-xl hover:scale-105 transform transition-all duration-300 relative block"
             >
               <img
                 src={item.image}
                 alt={item.name}
                 className="w-full h-48 object-cover"
                 onError={(e) =>
-                  (e.target.src =
-                    "https://via.placeholder.com/400x300?text=No+Image")
+                (e.target.src =
+                  "https://via.placeholder.com/400x300?text=No+Image")
                 }
               />
               {/* Optional badge */}
@@ -120,17 +121,11 @@ export default function CategoryPage() {
               )}
               <div className="p-4">
                 <h2 className="font-semibold text-lg">{item.name}</h2>
-                <p className="text-gray-700 my-2">{item.description}</p>
-                <p className="text-xl font-bold text-gray-900">
-                  ${item.discountPrice ?? item.price}
-                  {item.discountPrice && (
-                    <span className="line-through text-gray-500 ml-2">
-                      ${item.price}
-                    </span>
-                  )}
-                </p>
+                <p className="text-gray-700 my-2 line-clamp-2">{item.description}</p>
+                {/* Price removed as requested */}
+                <span className="text-blue-500 font-medium mt-2 inline-block">View Details →</span>
               </div>
-            </div>
+            </Link>
           ))}
         </div>
 

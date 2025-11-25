@@ -136,16 +136,16 @@ export default function HomePage() {
               TOP DEALS
             </div>
             {topDeals.map(deal => (
-              <div key={deal.id} className="rounded-lg shadow-sm overflow-hidden hover:shadow-md transition-shadow" style={{ backgroundColor: "#ffffff", color: themeDark }}>
+              <Link key={deal.id} to={`/product/${deal.slug}`} className="block rounded-lg shadow-sm overflow-hidden hover:shadow-md transition-shadow" style={{ backgroundColor: "#ffffff", color: themeDark }}>
                 {deal.image_url && (
                   <img src={deal.image_url} alt={deal.title} className="w-full h-32 object-cover" />
                 )}
                 <div className="p-4">
-                  <h3 className="font-semibold text-sm mb-1">{deal.title}</h3>
-                  {deal.price && <p className="font-semibold" style={{ color: themeLight }}>${deal.price}</p>}
-                  <Link to={deal.link || "#"} className="text-sm mt-1 block" style={{ color: themeLight }}>View Deal</Link>
+                  <h3 className="font-semibold text-sm mb-1">{deal.name}</h3>
+                  {/* Price removed */}
+                  <span className="text-sm mt-1 block" style={{ color: themeLight }}>View Deal</span>
                 </div>
-              </div>
+              </Link>
             ))}
           </div>
         </div>
@@ -217,15 +217,15 @@ export default function HomePage() {
           <h2 className="text-2xl font-bold mb-6" style={{ color: themeDark }}>TRENDING PRODUCTS</h2>
           <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6">
             {trendingProducts.map(product => (
-              <a key={product.id} href={product.affiliate_link || "#"} target="_blank" rel="noopener noreferrer" className="rounded-lg shadow-sm overflow-hidden hover:shadow-md transition-shadow" style={{ backgroundColor: "#ffffff", color: themeDark }}>
+              <Link key={product.id} to={`/product/${product.slug}`} className="rounded-lg shadow-sm overflow-hidden hover:shadow-md transition-shadow" style={{ backgroundColor: "#ffffff", color: themeDark }}>
                 {product.image_url && <img src={product.image_url} alt={product.name} className="w-full h-48 object-cover" />}
                 <div className="p-4">
                   <h3 className="font-semibold mb-1">{product.name}</h3>
                   <p className="text-sm mb-2">{product.brand || "Brand"}</p>
-                  <p className="font-semibold" style={{ color: themeLight }}>${product.discount_price}</p>
-                  <p className="line-through text-sm" style={{ color: themeDark }}>${product.price}</p>
+                  {/* Price removed */}
+                  <span className="font-semibold" style={{ color: themeLight }}>View Details</span>
                 </div>
-              </a>
+              </Link>
             ))}
           </div>
         </section>

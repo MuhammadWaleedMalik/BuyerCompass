@@ -15,6 +15,7 @@ import PrivacyPolicy from "./pages/PrivacyPolicy";
 import Contact from "./pages/Contact";
 import AffiliateDisclosure from "./pages/AffiliateDisclosure";
 import Terms from "./pages/Terms";
+import ProductPage from "./pages/ProductPage";
 
 function App() {
   return (
@@ -39,11 +40,10 @@ function App() {
             element={<AffiliateDisclosure />}
           />
           <Route path="/terms" element={<Terms />} />
-          <Route path="/about" element={<About />} />
-
 
 
           <Route path="/article/:slug" element={<ArticlePage />} />
+          <Route path="/product/:slug" element={<ProductPage />} />
 
           {/* Dynamic category route */}
           <Route path="/category/:catSlug/:subSlug" element={<CategoryPage />} />
