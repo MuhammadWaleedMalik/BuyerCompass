@@ -2,6 +2,7 @@ import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import Header from "./components/Header";
 import Navigation from "./components/Navigation";
 import Footer from "./components/Footer";
+import Snowfall from "./components/Snowfall.jsx";
 
 import HomePage from "./pages/HomePage";
 import ArticlePage from "./pages/ArticlePage";
@@ -14,14 +15,14 @@ import PrivacyPolicy from "./pages/PrivacyPolicy";
 import Contact from "./pages/Contact";
 import AffiliateDisclosure from "./pages/AffiliateDisclosure";
 import Terms from "./pages/Terms";
-import About from "./pages/About";
-
-
 
 function App() {
   return (
     <Router>
-      <div className="min-h-screen bg-gray-50">
+      <div className="relative min-h-screen bg-gray-50">
+        {/* Christmas snow overlay */}
+        <Snowfall count={90} />
+
         <Header />
         <Navigation />
 
@@ -33,7 +34,10 @@ function App() {
           <Route path="/gift-guides" element={<GiftGuidesPage />} />
           <Route path="/privacy-policy" element={<PrivacyPolicy />} />
           <Route path="/contact" element={<Contact />} />
-          <Route path="/affiliate-disclosure" element={<AffiliateDisclosure />} />
+          <Route
+            path="/affiliate-disclosure"
+            element={<AffiliateDisclosure />}
+          />
           <Route path="/terms" element={<Terms />} />
           <Route path="/about" element={<About />} />
 
@@ -41,9 +45,10 @@ function App() {
 
           <Route path="/article/:slug" element={<ArticlePage />} />
 
-          {/* The correct dynamic route */}
+          {/* Dynamic category route */}
           <Route path="/category/:catSlug/:subSlug" element={<CategoryPage />} />
 
+          {/* Fallback */}
           <Route path="*" element={<HomePage />} />
         </Routes>
 
