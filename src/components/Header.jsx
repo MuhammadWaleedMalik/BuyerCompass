@@ -168,6 +168,7 @@ export default function Header({ onSearch }) {
           >
             Terms
           </Link>
+          <meta name="p:domain_verify" content="619b5acd12005ac2f300ca59ce0f58a7"/>
         </nav>
       </div>
     </header>
