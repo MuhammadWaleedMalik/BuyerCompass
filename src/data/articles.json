@@ -5,12 +5,12 @@
       "title": "The Best Christmas Trees to Buy in 2025: Styles, Trends & Expert Picks",
       "slug": "the-best-christmas-trees-to-buy-in-2025:-styles,-trends-&-expert-picks",
       "excerpt": "Finding the perfect Christmas tree in 2025 is easier than ever, thanks to new styles, realistic designs, and improved lighting technology.",
-      "content": "Finding the perfect Christmas tree in 2025 is easier than ever, thanks to new styles, realistic designs, and improved lighting technology.\r\n\r\nAs holiday décor continues to evolve, Christmas trees have become centerpieces that reflect personal style, home aesthetics, and even social media trends. Our team evaluated dozens of artificial and pre-lit trees to determine which options offer the best combination of durability, realism, and overall value for modern homes.\r\n\r\nThis year, slim trees and flocked varieties are gaining traction for their aesthetic versatility. They fit beautifully into both small apartments and large family living rooms, offering a clean, curated look suitable for any décor theme. Pre-lit trees, especially warm-white options, remain the top pick for buyers who want hassle-free setup.\r\n\r\nOur analysis also found that realistic branch textures and easy-click assembly systems are now must-have features. Trees that incorporate molded needles and sturdy branch structure consistently performed better in our evaluations.\r\n\r\nFor shoppers looking to upgrade their holiday décor, 2025 brings a wide range of choices—each designed to make decorating feel effortless while elevating the festive atmosphere at home.",
+      "content": "As holiday décor continues to evolve, Christmas trees have become centerpieces that reflect personal style, home aesthetics, and even social media trends. Our team evaluated dozens of artificial and pre-lit trees to determine which options offer the best combination of durability, realism, and overall value for modern homes.\r\n\r\nThis year, slim trees and flocked varieties are gaining traction for their aesthetic versatility. They fit beautifully into both small apartments and large family living rooms, offering a clean, curated look suitable for any décor theme. Pre-lit trees, especially warm-white options, remain the top pick for buyers who want hassle-free setup.\r\n\r\nOur analysis also found that realistic branch textures and easy-click assembly systems are now must-have features. Trees that incorporate molded needles and sturdy branch structure consistently performed better in our evaluations.\r\n\r\nFor shoppers looking to upgrade their holiday décor, 2025 brings a wide range of choices—each designed to make decorating feel effortless while elevating the festive atmosphere at home.",
       "author": "Sarah Johnson",
       "image_url": "",
       "category_id": "1",
-      "is_featured": false,
-      "is_trending": false,
+      "is_featured": true,
+      "is_trending": true,
       "created_at": "45699"
     },
     {
@@ -22,8 +22,8 @@
       "author": "Michael Chen",
       "image_url": "",
       "category_id": "1",
-      "is_featured": false,
-      "is_trending": false,
+      "is_featured": true,
+      "is_trending": true,
       "created_at": "45849"
     },
     {
@@ -35,8 +35,8 @@
       "author": "Emily Rodriguez",
       "image_url": "",
       "category_id": "1",
-      "is_featured": false,
-      "is_trending": false,
+      "is_featured": true,
+      "is_trending": true,
       "created_at": "45972"
     },
     {
@@ -48,8 +48,8 @@
       "author": "David Thompson",
       "image_url": "",
       "category_id": "1",
-      "is_featured": false,
-      "is_trending": false,
+      "is_featured": true,
+      "is_trending": true,
       "created_at": "11/15/2025"
     },
     {
@@ -61,8 +61,8 @@
       "author": "Lisa Anderson",
       "image_url": "",
       "category_id": "1",
-      "is_featured": false,
-      "is_trending": false,
+      "is_featured": true,
+      "is_trending": true,
       "created_at": "45809"
     },
     {
@@ -74,8 +74,8 @@
       "author": "James Lee",
       "image_url": "",
       "category_id": "1",
-      "is_featured": false,
-      "is_trending": false,
+      "is_featured": true,
+      "is_trending": true,
       "created_at": "45839"
     },
     {
@@ -87,8 +87,8 @@
       "author": "Olivia Brown",
       "image_url": "",
       "category_id": "1",
-      "is_featured": false,
-      "is_trending": false,
+      "is_featured": true,
+      "is_trending": true,
       "created_at": "45870"
     },
     {
@@ -100,8 +100,8 @@
       "author": "Ava Morgan",
       "image_url": "",
       "category_id": "1",
-      "is_featured": false,
-      "is_trending": false,
+      "is_featured": true,
+      "is_trending": true,
       "created_at": "45901"
     },
     {
@@ -113,8 +113,8 @@
       "author": "Chris Davis",
       "image_url": "",
       "category_id": "1",
-      "is_featured": false,
-      "is_trending": false,
+      "is_featured": true,
+      "is_trending": true,
       "created_at": "45931"
     },
     {
@@ -126,8 +126,8 @@
       "author": "Henry Brooks",
       "image_url": "",
       "category_id": "1",
-      "is_featured": false,
-      "is_trending": false,
+      "is_featured": true,
+      "is_trending": true,
       "created_at": "45962"
     }
   ]
