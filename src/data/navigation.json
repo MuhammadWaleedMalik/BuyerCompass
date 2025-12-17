@@ -7,6 +7,18 @@
         {
           "name": "Trees",
           "slug": "trees"
+        },
+        {
+          "name": "Ornaments",
+          "slug": "ornaments"
+        },
+        {
+          "name": "Stockings",
+          "slug": "stockings"
+        },
+        {
+          "name": "Garlands & Wreaths",
+          "slug": "garlands & wreaths"
         }
       ]
     }
