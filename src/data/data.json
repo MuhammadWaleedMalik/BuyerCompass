@@ -5,6 +5,360 @@
       "slug": "christmas",
       "products": [
         {
+          "subcategory": "Garlands & Wreaths",
+          "slug": "garlands & wreaths",
+          "item": [
+            {
+              "name": "9ft Pre-Lit Christmas Garland",
+              "description": "Instantly drape your home in lush, festive greenery with the 9ft Pre-Lit Christmas Garland. Crafted for full, realistic style, lasting durability, and incredibly easy setup, this generously sized garland comes pre-strung with lights, guaranteed to stand out beautifully in photos, social posts, and real life. Due to its convenience and length, availability is limited—add this gorgeous, pre-lit garland to your cart immediately before it sells out!",
+              "priceText": "Click to check",
+              "priceUrl": "https://amzn.to/3MGmbfS",
+              "image": "https://raw.githubusercontent.com/MuhammadWaleedMalik/BuyerCompass/main/src/amazon%20listing%20images/Christmas/Images/9ft%20Pre-Lit%20Christmas%20Garland.png"
+            },
+            {
+              "name": "Flocked Snowy Garland with Pinecones",
+              "description": "Bring the magic of a fresh snowfall indoors with the Flocked Snowy Garland with Pinecones. Crafted for realistic, highly textured style, lasting durability, and incredibly easy setup, this garland is heavily flocked and accented with natural pinecones, providing immediate depth and charm. This essential piece guarantees a picturesque, snowy display that stands out dramatically in photos, social posts, and real life. Due to its detailed, high-impact look, availability is limited—add this gorgeous, flocked garland to your cart immediately before it sells out!",
+              "priceText": "Click to check",
+              "priceUrl": "https://amzn.to/4s2kgSS",
+              "image": "https://raw.githubusercontent.com/MuhammadWaleedMalik/BuyerCompass/main/src/amazon%20listing%20images/Christmas/Images/Flocked%20Snowy%20Garland%20with%20Pinecones.png"
+            },
+            {
+              "name": "Battery Operated Garland for Mantel",
+              "description": "Achieve perfect, hassle-free illumination anywhere in your home with the Battery Operated Garland for Mantel. Crafted for flexible style, lasting durability, and incredibly easy, wire-free setup, this garland allows you to drape light perfectly over mantels, shelves, or doorways. This essential piece guarantees a clean display that stands out dramatically in photos, social posts, and real life. Due to its convenient cordless feature, availability is limited—add this essential, battery-operated garland to your cart immediately before it sells out!",
+              "priceText": "Click to check",
+              "priceUrl": "https://amzn.to/4rWg6vH",
+              "image": "https://raw.githubusercontent.com/MuhammadWaleedMalik/BuyerCompass/main/src/amazon%20listing%20images/Christmas/Images/Battery%20Operated%20Garland%20for%20Mantel.png"
+            },
+            {
+              "name": "Garland for Staircase Railing",
+              "description": "Transform your hallway into a grand holiday entrance with the Garland for Staircase Railing. Crafted for dramatic style, lasting durability, and incredibly easy, secure setup along a banister, this garland offers ample length and fullness for a stunning, winding display. This essential accent piece is guaranteed to stand out beautifully in photos, social posts, and real life. Due to its specific size and purpose, availability is limited—add this gorgeous staircase garland to your cart immediately before it sells out!",
+              "priceText": "Click to check",
+              "priceUrl": "https://amzn.to/4s2F7FG",
+              "image": "https://raw.githubusercontent.com/MuhammadWaleedMalik/BuyerCompass/main/src/amazon%20listing%20images/Christmas/Images/Garland%20for%20Staircase%20Railing.png"
+            },
+            {
+              "name": "Outdoor Waterproof Garland",
+              "description": "Extend your festive decor beyond your doors with the rugged Outdoor Waterproof Garland. Crafted for vibrant style, superior weather resistance, and incredibly easy setup, this garland is built to withstand rain and snow, guaranteeing a beautiful, consistent display on fences, eaves, or mailboxes. This essential piece is guaranteed to stand out boldly in photos, social posts, and real life. Due to its specialized exterior rating, availability is limited—add this reliable, waterproof garland to your cart immediately before it sells out!",
+              "priceText": "Click to check",
+              "priceUrl": "https://amzn.to/4oYqnom",
+              "image": "https://raw.githubusercontent.com/MuhammadWaleedMalik/BuyerCompass/main/src/amazon%20listing%20images/Christmas/Images/Outdoor%20Waterproof%20Garland.png"
+            },
+            {
+              "name": "Red Berry and Pinecone Garland",
+              "description": "Bring the rich, classic textures of the holidays to your home with the Red Berry and Pinecone Garland. Crafted for traditional, picturesque style, lasting durability, and incredibly easy setup, this garland is guaranteed to create a warm, inviting display that stands out beautifully in photos, social posts, and real life. Due to its essential holiday components, availability is limited—add this gorgeous, accented garland to your cart immediately before it sells out!",
+              "priceText": "Click to check",
+              "priceUrl": "https://amzn.to/45bOHMs",
+              "image": "https://raw.githubusercontent.com/MuhammadWaleedMalik/BuyerCompass/main/src/amazon%20listing%20images/Christmas/Images/Red%20Berry%20and%20Pinecone%20Garland.png"
+            },
+            {
+              "name": "Eucalyptus and Pine Mixed Garland",
+              "description": "Achieve a chic, sophisticated blend of textures with the Eucalyptus and Pine Mixed Garland. Crafted for layered, stylish contrast, lasting durability, and incredibly easy setup, this garland features soft blue-green eucalyptus mixed with rich pine sprigs for a designer look. This unique combination guarantees a beautiful, elevated display that stands out elegantly in photos, social posts, and real life. Due to its trendy and sought-after blend, availability is limited—add this gorgeous, mixed-texture garland to your cart immediately before it sells out!",
+              "priceText": "Click to check",
+              "priceUrl": "https://amzn.to/4pHnWb0",
+              "image": "https://raw.githubusercontent.com/MuhammadWaleedMalik/BuyerCompass/main/src/amazon%20listing%20images/Christmas/Images/Eucalyptus%20and%20Pine%20Mixed%20Garland.png"
+            },
+            {
+              "name": "Beaded Wooden Christmas Garland",
+              "description": "Introduce a clean, natural touch to your holiday decorating with the Beaded Wooden Christmas Garland. Crafted for minimalist style, lasting durability, and incredibly easy setup, this garland features smoothly finished wooden beads that offer a unique, rustic-meets-modern texture. This unique piece guarantees a charming, streamlined display that stands out beautifully in photos, social posts, and real life. Due to high demand for this essential Scandinavian look, availability is limited—add this gorgeous, beaded garland to your cart immediately before it sells out!",
+              "priceText": "Click to check",
+              "priceUrl": "https://amzn.to/48HamOW",
+              "image": "https://raw.githubusercontent.com/MuhammadWaleedMalik/BuyerCompass/main/src/amazon%20listing%20images/Christmas/Images/Beaded%20Wooden%20Christmas%20Garland.png"
+            },
+            {
+              "name": "Felt Ball Christmas Garland",
+              "description": "Add a playful, tactile element to your decor with the adorable Felt Ball Christmas Garland. Crafted for charming, handcrafted style, lasting durability, and incredibly easy setup, this garland features soft, colorful felt balls strung together, providing a unique texture that works well anywhere. This essential piece guarantees a fun, inviting display that stands out delightfully in photos, social posts, and real life. Due to high demand for this cute style, availability is limited—add this gorgeous garland to your cart immediately before it sells out!",
+              "priceText": "Click to check",
+              "priceUrl": "https://amzn.to/4pHqbeq",
+              "image": "https://raw.githubusercontent.com/MuhammadWaleedMalik/BuyerCompass/main/src/amazon%20listing%20images/Christmas/Images/Felt%20Ball%20Christmas%20Garland.png"
+            },
+            {
+              "name": "LED Garland with Timer",
+              "description": "Maximize convenience and beauty with the LED Garland with Timer. Crafted for consistent style, lasting durability, and incredibly easy setup, this smart garland features a built-in timer that allows you to set it and forget it, guaranteeing a beautiful glow every evening. This essential piece is guaranteed to stand out beautifully in photos, social posts, and real life without manual hassle. Due to its advanced convenience feature, availability is limited—add this gorgeous, timed garland to your cart immediately before it sells out!",
+              "priceText": "Click to check",
+              "priceUrl": "https://amzn.to/4s2IX1y",
+              "image": "https://raw.githubusercontent.com/MuhammadWaleedMalik/BuyerCompass/main/src/amazon%20listing%20images/Christmas/Images/LED%20Garland%20with%20Timer.png"
+            },
+            {
+              "name": "Doorway Garland Kit",
+              "description": "Create a stunning, welcoming focal point with the Doorway Garland Kit, the perfect comprehensive set to refresh your home's main entrance this season. Crafted for full, dramatic style, lasting durability, and incredibly easy setup tailored specifically for door frames, this essential piece is guaranteed to stand out boldly and beautifully in photos, social posts, and real life. Due to its customized dimensions and complete contents, availability is limited—add this gorgeous doorway kit to your cart immediately before it sells out!",
+              "priceText": "Click to check",
+              "priceUrl": "https://amzn.to/4afCAl4",
+              "image": "https://raw.githubusercontent.com/MuhammadWaleedMalik/BuyerCompass/main/src/amazon%20listing%20images/Christmas/Images/Doorway%20Garland%20Kit.png"
+            },
+            {
+              "name": "Pre-Lit Wreath and Garland Set",
+              "description": "Create a flawless, harmonized display with the Pre-Lit Wreath and Garland Set. Crafted for uniform style, lasting durability, and incredibly easy, matching setup, this set guarantees a cohesive, beautiful glow for your door and mantle or railing right out of the box. This essential pairing is guaranteed to stand out beautifully in photos, social posts, and real life. Due to its convenience and high demand for matching sets, availability is limited—add this gorgeous, pre-lit set to your cart immediately before it sells out!",
+              "priceText": "Click to check",
+              "priceUrl": "https://amzn.to/4aTScuI",
+              "image": "https://raw.githubusercontent.com/MuhammadWaleedMalik/BuyerCompass/main/src/amazon%20listing%20images/Christmas/Images/Pre-Lit%20Wreath%20and%20Garland%20Set.png"
+            },
+            {
+              "name": "24-Inch Pre-Lit Christmas Wreath",
+              "description": "Make a brilliant first impression with the 24-Inch Pre-Lit Christmas Wreath. Crafted for full, classic style, lasting durability, and incredibly easy, immediate setup, this generously sized wreath is guaranteed to stand out boldly and beautifully in photos, social posts, and real life. Due to its convenience and ideal size, availability is limited—add this gorgeous, pre-lit wreath to your cart immediately before it sells out!",
+              "priceText": "Click to check",
+              "priceUrl": "https://amzn.to/4s2LgS8",
+              "image": "https://raw.githubusercontent.com/MuhammadWaleedMalik/BuyerCompass/main/src/amazon%20listing%20images/Christmas/Images/24-Inch%20Pre-Lit%20Christmas%20Wreath.png"
+            }
+          ]
+        },
+        {
+          "subcategory": "Ornaments",
+          "slug": "ornaments",
+          "item": [
+            {
+              "name": "Crystal Snowflake Ornament",
+              "description": "Refresh your holiday décor with the Crystal Snowflake Ornament. Crafted with elegant crystal-style detailing and a timeless snowflake design, this ornament catches and reflects light beautifully, adding a sparkling focal point to your tree, wreaths, or garlands. Lightweight and easy to hang, it brings winter charm and photo-ready brilliance to your home, social posts, and festive moments. Due to seasonal demand for this dazzling accent, availability is limited—add the Crystal Snowflake Ornament to your cart now before it disappears.",
+              "priceText": "Click to check",
+              "priceUrl": "https://amzn.to/3L4SJPZ",
+              "image": "https://raw.githubusercontent.com/MuhammadWaleedMalik/BuyerCompass/main/src/amazon%20listing%20images/Christmas/Images/Crystal%20Snowflake%20Ornament%20-%20Shortcut.png"
+            },
+            {
+              "name": "Shatterproof Ball Ornaments Set",
+              "description": "Refresh your home this season with the Shatterproof Ball Ornaments Set This set is constructed for classic style, superior drop-proof durability, and incredibly easy hanging, ensuring your tree stands out beautifully in photos, social posts, and real life without the risk of breakage. Due to high demand for this essential, resilient set, availability is limited—add these ornaments to your cart immediately before they sell out!",
+              "priceText": "Click to check",
+              "priceUrl": "https://amzn.to/4s7vjub",
+              "image": "https://raw.githubusercontent.com/MuhammadWaleedMalik/BuyerCompass/main/src/amazon%20listing%20images/Christmas/Images/Shatterproof%20Ball%20Ornaments%20Set%20-%20Shortcut.png"
+            },
+            {
+              "name": "Red and Gold Ornament Set",
+              "description": "Instantly transform your tree with the majestic Red and Gold Ornament Set. This set is put together for rich, festive style, long-lasting durability, and super easy hanging, guaranteeing a truly spectacular look that stands out beautifully in photos, social posts, and real life. Due to high demand for this classic color combination, availability is limited—add these essential, elegant ornaments to your cart immediately before they sell out!",
+              "priceText": "Click to check",
+              "priceUrl": "https://amzn.to/4j3G7oP",
+              "image": "https://raw.githubusercontent.com/MuhammadWaleedMalik/BuyerCompass/main/src/amazon%20listing%20images/Christmas/Images/Red%20and%20Gold%20Ornament%20Set%20-%20Shortcut.png"
+            },
+            {
+              "name": "Silver and Blue Ornament Set",
+              "description": "Refresh your home with an icy aesthetic using the Silver and Blue Ornament Set. This set is developed for cool, modern style, reliable durability, and super easy hanging, guaranteeing a brilliant, serene display that stands out beautifully in photos, social posts, and real life. Due to high demand for this sophisticated color theme, availability is limited—add these essential, elegant ornaments to your cart immediately before they sell out!",
+              "priceText": "Click to check",
+              "priceUrl": "https://amzn.to/452o90a",
+              "image": "https://raw.githubusercontent.com/MuhammadWaleedMalik/BuyerCompass/main/src/amazon%20listing%20images/Christmas/Images/Silver%20and%20Blue%20Ornament%20Set%20-%20Shortcut.png"
+            },
+            {
+              "name": "Rustic Farmhouse Ornament Set",
+              "description": "Give your home that cozy, welcoming feel with the Rustic Farmhouse Ornament Set, the perfect collection to instantly refresh your holiday look this season. This set is assembled for warm, authentic style, solid durability, and incredibly easy hanging, guaranteeing a charming, picturesque display that stands out beautifully in photos, social posts, and real life. Due to high demand for this popular aesthetic, availability is limited—add these essential, cozy ornaments to your cart immediately before they sell out!",
+              "priceText": "Click to check",
+              "priceUrl": "https://amzn.to/3MOdEY2",
+              "image": "https://raw.githubusercontent.com/MuhammadWaleedMalik/BuyerCompass/main/src/amazon%20listing%20images/Christmas/Images/Rustic%20Farmhouse%20Stocking%20Set.png"
+            },
+            {
+              "name": "Clear Fillable Ornaments",
+              "description": "Unlock endless creativity with the Clear Fillable Ornaments, the perfect blank canvas to personalize and refresh your home's look this season. This set is produced for versatile style, reliable durability, and incredibly easy setup and customization, guaranteeing unique decorations that stand out beautifully in photos, social posts, and real life. Due to their creative potential, availability is limited—add these essential, customizable ornaments to your cart immediately before they sell out!",
+              "priceText": "Click to check",
+              "priceUrl": "https://amzn.to/4515SjQ",
+              "image": "https://raw.githubusercontent.com/MuhammadWaleedMalik/BuyerCompass/main/src/amazon%20listing%20images/Christmas/Images/Clear%20Fillable%20Ornaments%20-%20Shortcut.png"
+            },
+            {
+              "name": "Personalized Name Ornaments",
+              "description": "Create lasting memories and instantly refresh your home with the thoughtful Personalized Name Ornaments, the perfect touch of customized charm this season. This set is made for unique style and incredibly easy hanging, guaranteeing heartfelt, special decorations that stand out beautifully in photos, social posts, and real life. Due to the high demand for customized items, availability is limited—add these essential, personalized ornaments to your cart immediately before they sell out!",
+              "priceText": "Click to check",
+              "priceUrl": "https://amzn.to/3XViaXf",
+              "image": "https://raw.githubusercontent.com/MuhammadWaleedMalik/BuyerCompass/main/src/amazon%20listing%20images/Christmas/Images/Personalized%20Name%20Ornaments%20-%20Shortcut.png"
+            },
+            {
+              "name": "Baby First Christmas Ornament",
+              "description": "Capture the magic of a milestone with the Baby First Christmas Ornament. This ornament is designed for sentimental style, lasting durability, and incredibly easy hanging, guaranteeing a precious decoration that stands out beautifully in photos, social posts, and real life. Due to its emotional value and limited yearly stock, availability is highly limited—add this essential, heartwarming ornament to your cart immediately before it sells out!",
+              "priceText": "Click to check",
+              "priceUrl": "https://amzn.to/3Y2dsqD",
+              "image": "https://raw.githubusercontent.com/MuhammadWaleedMalik/BuyerCompass/main/src/amazon%20listing%20images/Christmas/Images/Baby%20First%20Christmas%20Ornament%20-%20Shortcut.png"
+            },
+            {
+              "name": "Couples First Christmas Ornament",
+              "description": "Mark a beautiful beginning with the Couples First Christmas Ornament, the perfect romantic keepsake to celebrate a special new season together. This ornament is produced for romantic style, lasting durability, and incredibly easy hanging, guaranteeing a memorable decoration that stands out beautifully in photos, social posts, and real life. Due to its emotional value and high demand, availability is highly limited—add this essential, heartwarming ornament to your cart immediately before it sells out!",
+              "priceText": "Click to check",
+              "priceUrl": "https://amzn.to/4qizIZA",
+              "image": "https://raw.githubusercontent.com/MuhammadWaleedMalik/BuyerCompass/main/src/amazon%20listing%20images/Christmas/Images/Couples%20First%20Christmas%20Ornament%20-%20Shortcut.png"
+            },
+            {
+              "name": "Family Photo Frame Ornament",
+              "description": "Personalize your tree and instantly refresh your home with the Family Photo Frame Ornament. This frame is put together for sentimental style, reliable durability, and incredibly easy photo insertion and hanging, guaranteeing a heartfelt decoration that stands out beautifully in photos, social posts, and real life. Due to its personalized appeal, availability is limited—add this essential, special ornament to your cart immediately before it sells out!",
+              "priceText": "Click to check",
+              "priceUrl": "https://amzn.to/3XZIdwu",
+              "image": "https://raw.githubusercontent.com/MuhammadWaleedMalik/BuyerCompass/main/src/amazon%20listing%20images/Christmas/Images/Family%20Photo%20Frame%20Ornament%20-%20Shortcut.png"
+            },
+            {
+              "name": "Pet Paw Print Ornament",
+              "description": "Complete the look of your holiday setup with the Full, Lush Tree Skirt, the final detail needed to instantly refresh your home this season. This skirt is put together for rich, premium style and long-lasting durability. This essential foundation is guaranteed to make your tree stand out beautifully in photos, social posts, and real life. Due to high demand for this finishing touch, availability is limited—add this gorgeous tree skirt to your cart immediately before it sells out!",
+              "priceText": "Click to check",
+              "priceUrl": "https://amzn.to/4s2HFnb",
+              "image": "https://raw.githubusercontent.com/MuhammadWaleedMalik/BuyerCompass/main/src/amazon%20listing%20images/Christmas/Images/Pet%20Paw%20Print%20Ornament%20-%20Shortcut.png"
+            },
+            {
+              "name": "Glass Snowflake Ornaments",
+              "description": "Achieve an incredibly rich, full illumination effect with the Cluster Christmas Lights. Crafted for intense style, lasting durability, and incredibly easy setup, these lights offer a spectacular, thick sparkle guaranteed to stand out boldly in photos, social posts, and real life. Due to their dramatic visual impact, availability is limited—secure this essential lighting by adding it to your cart immediately before it sells out!",
+              "priceText": "Click to check",
+              "priceUrl": "https://amzn.to/4agZb0D",
+              "image": "https://raw.githubusercontent.com/MuhammadWaleedMalik/BuyerCompass/main/src/amazon%20listing%20images/Christmas/Images/Glass%20Snowflake%20Ornaments%20-%20Shortcut.png"
+            },
+            {
+              "name": "Mini Ornaments for Small Trees",
+              "description": "Complete your miniature holiday setup with the Mini Ornaments for Small Trees. Crafted for charming style, reliable durability, and super easy hanging, these tiny decorations are perfectly sized to complement tabletop or pencil trees. This set is guaranteed to give your small tree a balanced, beautiful look that stands out in photos, social posts, and real life. Due to high demand for specialized sizes, availability is limited—add these essential mini ornaments to your cart immediately before they sell out!",
+              "priceText": "Click to check",
+              "priceUrl": "https://amzn.to/452QEuE",
+              "image": "https://raw.githubusercontent.com/MuhammadWaleedMalik/BuyerCompass/main/src/amazon%20listing%20images/Christmas/Images/Mini%20Ornaments%20for%20Small%20Trees%20-%20Shortcut.png"
+            },
+            {
+              "name": "Gnome Christmas Ornaments",
+              "description": "Bring a touch of playful folklore to your tree with the adorable Gnome Christmas Ornaments. Crafted for charming style, lasting durability, and incredibly easy hanging, these popular characters guarantee a fun, cozy display that stands out delightfully in photos, social posts, and real life. Due to their immense popularity, availability is limited—add these essential, sought-after gnome ornaments to your cart immediately before they sell out!",
+              "priceText": "Click to check",
+              "priceUrl": "https://amzn.to/4s2RRMi",
+              "image": "https://raw.githubusercontent.com/MuhammadWaleedMalik/BuyerCompass/main/src/amazon%20listing%20images/Christmas/Images/Gnome%20Christmas%20Ornaments%20-%20Shortcut.png"
+            },
+            {
+              "name": "Buffalo Plaid Ornament Set",
+              "description": "Infuse your tree with a cozy, rustic charm using the Buffalo Plaid Ornament Set. Crafted for bold, cozy style, lasting durability, and incredibly easy hanging, these patterned ornaments guarantee a warm, inviting display that stands out beautifully in photos, social posts, and real life. Due to high demand for this essential, popular pattern, availability is limited—add this stylish ornament set to your cart immediately before it sells out!",
+              "priceText": "Click to check",
+              "priceUrl": "https://amzn.to/4afkWxQ",
+              "image": "https://raw.githubusercontent.com/MuhammadWaleedMalik/BuyerCompass/main/src/amazon%20listing%20images/Christmas/Images/Buffalo%20Plaid%20Ornament%20Set%20-%20Shortcut.png"
+            },
+            {
+              "name": "Metal Snowflake Ornaments",
+              "description": "Add a touch of modern, sleek texture to your tree with the Metal Snowflake Ornaments, the ideal accents to refresh your home with contemporary style this season. Crafted for refined, rugged style, outstanding durability, and incredibly easy setup, these durable ornaments provide a beautiful, sophisticated contrast to traditional decor. This set is guaranteed to standout beautifully in photos, social posts, and real life. Due to high demand for this strong, elegant material, availability is limited—add these essential metal ornaments to your cart immediately before they sell out!",
+              "priceText": "Click to check",
+              "priceUrl": "https://amzn.to/3XZ9oHO",
+              "image": "https://raw.githubusercontent.com/MuhammadWaleedMalik/BuyerCompass/main/src/amazon%20listing%20images/Christmas/Images/Metal%20Snowflake%20Ornaments%20-%20Shortcut.png"
+            },
+            {
+              "name": "Santa and Reindeer Ornament Set",
+              "description": "This charming set features a classic hand-painted Santa Claus paired with his faithful reindeer, finished with glittering gold accents and festive red details. These nostalgic ornaments bring a warm, traditional feel to your holiday tree and are perfect for creating a timeless Christmas display.",
+              "priceText": "Click to check",
+              "priceUrl": "https://amzn.to/44zfJgJ",
+              "image": "https://raw.githubusercontent.com/MuhammadWaleedMalik/BuyerCompass/main/src/amazon%20listing%20images/Christmas/Images/Santa%20and%20Reindeer%20Ornament%20Set%20-%20Shortcut.png"
+            },
+            {
+              "name": "Handmade Knit Ornament Set",
+              "description": "Infuse your tree with warmth and texture using the Handmade Knit Ornament Set. Crafted for charming, bespoke style, lasting durability, and incredibly easy hanging, these unique pieces guarantee a delightful, soft display that stands out beautifully in photos, social posts, and real life. Due to the time-intensive process of creation, availability is limited—add these essential, cozy ornaments to your cart immediately before they sell out!",
+              "priceText": "Click to check",
+              "priceUrl": "https://amzn.to/48FF76W",
+              "image": "https://raw.githubusercontent.com/MuhammadWaleedMalik/BuyerCompass/main/src/amazon%20listing%20images/Christmas/Images/Handmade%20Knit%20Ornament%20Set.png"
+            },
+            {
+              "name": "LED Light-Up Ornaments",
+              "description": "Add an extra layer of illumination to your tree with the dazzling LED Light-Up Ornaments. Crafted for spectacular style, reliable durability, and incredibly easy setup, these ornaments feature their own internal glow, guaranteeing a vibrant, eye-catching display that stands out dramatically in photos, social posts, and real life. Due to their unique, high-impact appeal, availability is limited—add these essential, glowing ornaments to your cart immediately before they sell out!",
+              "priceText": "Click to check",
+              "priceUrl": "https://amzn.to/4qbDjZ0",
+              "image": "https://raw.githubusercontent.com/MuhammadWaleedMalik/BuyerCompass/main/src/amazon%20listing%20images/Christmas/Images/LED%20Light-Up%20Ornaments.png"
+            },
+            {
+              "name": "Nativity Scene Ornament",
+              "description": "Center your holiday celebration on its true meaning with the reverent Nativity Scene Ornament. Crafted for classic, meaningful style, lasting durability, and incredibly easy hanging, this beautiful scene guarantees a heartwarming, traditional display that stands out thoughtfully in photos, social posts, and real life. Due to its essential religious importance, availability is limited—add this special, poignant ornament to your cart immediately before it sells out!",
+              "priceText": "Click to check",
+              "priceUrl": "https://amzn.to/458iIg7",
+              "image": "https://raw.githubusercontent.com/MuhammadWaleedMalik/BuyerCompass/main/src/amazon%20listing%20images/Christmas/Images/Nativity%20Scene%20Ornament.png"
+            }
+          ]
+        },
+        {
+          "subcategory": "Stockings",
+          "slug": "stockings",
+          "item": [
+            {
+              "name": "Classic Red Christmas Stocking 4-Pack",
+              "description": "Complete your mantle display instantly with the Classic Red Christmas Stocking 4-Pack. Crafted for traditional style, lasting durability, and incredibly easy hanging, these generously sized stockings guarantee a uniform, welcoming look that stands out beautifully in photos, social posts, and real life. Due to high demand for this essential set, availability is limited—add this must-have 4-pack to your cart immediately before it sells out!",
+              "priceText": "Click to check",
+              "priceUrl": "https://amzn.to/48W0wHN",
+              "image": "https://raw.githubusercontent.com/MuhammadWaleedMalik/BuyerCompass/main/src/amazon%20listing%20images/Christmas/Images/Classic%20Red%20Christmas%20Stocking%204-Pack.png"
+            },
+            {
+              "name": "Burlap and Lace Stockings Set",
+              "description": "Infuse your fireplace with sophisticated texture using the Burlap and Lace Stockings Set. Crafted for charming, layered style, lasting durability, and incredibly easy hanging, these stockings combine natural burlap with delicate lace for a unique look. This set guarantees a picturesque, cozy display that stands out beautifully in photos, social posts, and real life. Due to their unique, high-demand style, availability is limited—add these essential, beautiful stockings to your cart immediately before they sell out!",
+              "priceText": "Click to check",
+              "priceUrl": "https://amzn.to/4q6h4Uy",
+              "image": "https://raw.githubusercontent.com/MuhammadWaleedMalik/BuyerCompass/main/src/amazon%20listing%20images/Christmas/Images/Burlap%20and%20Lace%20Stockings%20Set.png"
+            },
+            {
+              "name": "Knit Cable Christmas Stockings",
+              "description": "Give your fireplace a warm, handcrafted look with the Knit Cable Christmas Stockings. Crafted for charming, artisanal style, lasting durability, and incredibly easy hanging, these stockings feature a beautiful cable knit pattern that mimics your favorite winter sweater. This set guarantees a soft, inviting display that stands out beautifully in photos, social posts, and real life. Due to their sought-after cozy feel, availability is limited—add these essential, beautiful stockings to your cart immediately before they sell out!",
+              "priceText": "Click to check",
+              "priceUrl": "https://amzn.to/4iZ7IYe",
+              "image": "https://raw.githubusercontent.com/MuhammadWaleedMalik/BuyerCompass/main/src/amazon%20listing%20images/Christmas/Images/Knit%20Cable%20Christmas%20Stockings.png"
+            },
+            {
+              "name": "Personalized Name Stockings",
+              "description": "Make your mantle uniquely yours with the Personalized Name Stockings. Crafted for heartfelt style, lasting durability, and incredibly easy hanging, these stockings guarantee a special, welcoming display that ensures every family member feels celebrated. This set is guaranteed to stand out beautifully in photos, social posts, and real life. Due to high demand for customized items, availability is limited—add these essential, personalized stockings to your cart immediately before they sell out!",
+              "priceText": "Click to check",
+              "priceUrl": "https://amzn.to/3KVQuyu",
+              "image": "https://raw.githubusercontent.com/MuhammadWaleedMalik/BuyerCompass/main/src/amazon%20listing%20images/Christmas/Images/Personalized%20Name%20Stockings.png"
+            },
+            {
+              "name": "Pet Dog Christmas Stocking",
+              "description": "Ensure your four-legged family member is included in the celebration with the adorable Pet Dog Christmas Stocking. Crafted for fun, pet-friendly style, lasting durability, and incredibly easy hanging, this dedicated stocking guarantees a heartwarming, complete family display that stands out beautifully in photos, social posts, and real life. Due to high demand from devoted pet owners, availability is limited—add this essential, special stocking to your cart immediately before it sells out!",
+              "priceText": "Click to check",
+              "priceUrl": "https://amzn.to/48HDohr",
+              "image": "https://raw.githubusercontent.com/MuhammadWaleedMalik/BuyerCompass/main/src/amazon%20listing%20images/Christmas/Images/Pet%20Dog%20Christmas%20Stocking.png"
+            },
+            {
+              "name": "Pet Cat Christmas Stocking",
+              "description": "Include your feline friend in the festivities with the charming Pet Cat Christmas Stocking. Crafted for whimsical, cat-themed style, lasting durability, and incredibly easy hanging, this dedicated stocking guarantees a unique, heartwarming family display that stands out beautifully in photos, social posts, and real life. Due to high demand from devoted cat owners, availability is limited—add this essential, special stocking to your cart immediately before it sells out!",
+              "priceText": "Click to check",
+              "priceUrl": "https://amzn.to/4qiKcbo",
+              "image": "https://raw.githubusercontent.com/MuhammadWaleedMalik/BuyerCompass/main/src/amazon%20listing%20images/Christmas/Images/Pet%20Cat%20Christmas%20Stocking.png"
+            },
+            {
+              "name": "Buffalo Plaid Stockings 4-Pack",
+              "description": "Create a coordinated, cozy fireplace aesthetic with the Buffalo Plaid Stockings 4-Pack. Crafted for bold, cozy style, lasting durability, and incredibly easy hanging, these four identical stockings guarantee a rich, warm, and inviting display that stands out beautifully in photos, social posts, and real life. Due to high demand for this essential, matching set, availability is limited—add this stylish 4-pack to your cart immediately before it sells out!",
+              "priceText": "Click to check",
+              "priceUrl": "https://amzn.to/4qytapR",
+              "image": "https://raw.githubusercontent.com/MuhammadWaleedMalik/BuyerCompass/main/src/amazon%20listing%20images/Christmas/Images/Buffalo%20Plaid%20Stockings%204-Pack.png"
+            },
+            {
+              "name": "Luxury Velvet Christmas Stockings",
+              "description": "Drape your fireplace in elegance with the Luxury Velvet Christmas Stockings. Crafted for rich, premium style, long-lasting durability, and incredibly easy hanging, these stockings feature a gorgeous velvet finish that catches the light beautifully. This set guarantees a sophisticated, stunning display that stands out dramatically in photos, social posts, and real life. Due to high demand for this essential, luxurious item, availability is limited—add these elegant velvet stockings to your cart immediately before they sell out!",
+              "priceText": "Click to check",
+              "priceUrl": "https://amzn.to/48ZITqG",
+              "image": "https://raw.githubusercontent.com/MuhammadWaleedMalik/BuyerCompass/main/src/amazon%20listing%20images/Christmas/Images/Luxury%20Velvet%20Christmas%20Stockings.png"
+            },
+            {
+              "name": "Mini Stockings for Advent Calendar",
+              "description": "Elevate your countdown to Christmas with the Mini Stockings for Advent Calendar. Crafted for adorable scale, reliable durability, and incredibly easy hanging and filling, these tiny pockets guarantee a fun, highly interactive display that stands out delightfully in photos, social posts, and real life. Due to their unique and sought-after functionality, availability is limited—add these essential mini stockings to your cart immediately before they sell out!",
+              "priceText": "Click to check",
+              "priceUrl": "https://amzn.to/4pNkGLm",
+              "image": "https://raw.githubusercontent.com/MuhammadWaleedMalik/BuyerCompass/main/src/amazon%20listing%20images/Christmas/Images/Mini%20Stockings%20for%20Advent%20Calendar.png"
+            },
+            {
+              "name": "Faux Fur Trimmed Stockings",
+              "description": "Add a layer of irresistible softness and warmth to your holiday setup with the Faux Fur Trimmed Stockings. Crafted for cozy, rich style, lasting durability, and incredibly easy hanging, these stockings feature a plush fur cuff that adds a gorgeous, wintry feel. This detail guarantees a sophisticated, welcoming display that stands out beautifully in photos, social posts, and real life. Due to high demand for this essential, luxurious item, availability is limited—add these warm, furry stockings to your cart immediately before they sell out!",
+              "priceText": "Click to check",
+              "priceUrl": "https://amzn.to/3XZlfpa",
+              "image": "https://raw.githubusercontent.com/MuhammadWaleedMalik/BuyerCompass/main/src/amazon%20listing%20images/Christmas/Images/Faux%20Fur%20Trimmed%20Stockings.png"
+            },
+            {
+              "name": "Snowman and Santa Stocking Set",
+              "description": "Bring classic holiday cheer to your fireplace with the festive Snowman and Santa Stocking Set. Crafted for whimsical, festive style, lasting durability, and incredibly easy hanging, these stockings feature beloved figures that guarantee nostalgic display. This set stands out beautifully in photos, social posts, and real life. Due to their essential and heartwarming appeal, availability is limited—add this classic character stocking set to your cart immediately before it sells out!",
+              "priceText": "Click to check",
+              "priceUrl": "https://amzn.to/3Mz4IpA",
+              "image": "https://raw.githubusercontent.com/MuhammadWaleedMalik/BuyerCompass/main/src/amazon%20listing%20images/Christmas/Images/Snowman%20and%20Santa%20Stocking%20Set.png"
+            },
+            {
+              "name": "Family Set of 6 Stockings",
+              "description": "Outfit your entire mantle in one go with the Family Set of 6 Stockings. Crafted for uniform style, lasting durability, and incredibly easy hanging, this generous set guarantees a cohesive, welcoming display that celebrates the whole family and stands out beautifully in photos, social posts, and real life. Due to high demand for this essential, large matching set, availability is limited—add this full family set to your cart immediately before it sells out!",
+              "priceText": "Click to check",
+              "priceUrl": "https://amzn.to/4pLoxIS",
+              "image": "https://raw.githubusercontent.com/MuhammadWaleedMalik/BuyerCompass/main/src/amazon%20listing%20images/Christmas/Images/Family%20Set%20of%206%20Stockings.png"
+            },
+            {
+              "name": "Minimalist White Christmas Stocking",
+              "description": "Achieve a chic, serene holiday look with the Minimalist White Christmas Stocking. Crafted for sleek, contemporary style, lasting durability, and incredibly easy hanging, these stockings offer a crisp, bright accent that perfectly complements a modern or Scandinavian aesthetic, that stands out beautifully in photos, social posts, and real life. Due to high demand for this essential, versatile style, availability is limited—add these elegant white stockings to your cart immediately before it sells out!",
+              "priceText": "Click to check",
+              "priceUrl": "https://amzn.to/4pHfVCT",
+              "image": "https://raw.githubusercontent.com/MuhammadWaleedMalik/BuyerCompass/main/src/amazon%20listing%20images/Christmas/Images/Minimalist%20White%20Christmas%20Stocking.png"
+            },
+            {
+              "name": "Rustic Farmhouse Stocking Set",
+              "description": "Bring the cozy, welcoming appeal of the countryside to your fireplace with the Rustic Farmhouse Stocking Set. Crafted for authentic, quaint style, lasting durability, and incredibly easy hanging, these stockings feature natural textures and classic details for a charming, down-to-earth look. This set guarantees a picturesque display that stands out beautifully in photos, social posts, and real life. Due to high demand for this popular aesthetic, availability is limited—add these essential, cozy stockings to your cart immediately before they sell out!",
+              "priceText": "Click to check",
+              "priceUrl": "https://amzn.to/3KC3E3H",
+              "image": "https://raw.githubusercontent.com/MuhammadWaleedMalik/BuyerCompass/main/src/amazon%20listing%20images/Christmas/Images/Rustic%20Farmhouse%20Stocking%20Set.png"
+            },
+            {
+              "name": "LED Light-Up Christmas Stockings",
+              "description": "Make your fireplace glow with the LED Light-Up Christmas Stockings. Crafted for spectacular style, reliable durability, and incredibly easy hanging, these stockings feature integrated, subtle LED lights that provide a charming sparkle. This unique design guarantees a stunning, high-impact display that stands out dramatically in photos, social posts, and real life. Due to their dazzling effect and high-tech appeal, availability is limited—add these essential, glowing stockings to your cart immediately before they sell out!",
+              "priceText": "Click to check",
+              "priceUrl": "https://amzn.to/452EYYS",
+              "image": "https://raw.githubusercontent.com/MuhammadWaleedMalik/BuyerCompass/main/src/amazon%20listing%20images/Christmas/Images/LED%20Light-Up%20Christmas%20Stockings.png"
+            }
+          ]
+        },
+        {
           "subcategory": "Trees",
           "slug": "trees",
           "item": [
@@ -12,21 +366,21 @@
               "name": "4ft Slim Artificial Tree",
               "description": "4ft Slim Artificial Tree – the perfect blend of beauty, style and convenience to refresh your home this season. Expertly designed for easy setup and lasting durability. Intensely photogenic, ready for its close up on social media and your home. Limited availability – add it to your cart before it sells out.",
               "priceText": "Click to check",
-              "priceUrl": "https://amzn.to/4aoK4Ct",
+              "priceUrl": "https://amzn.to/4rYgDxd",
               "image": "https://raw.githubusercontent.com/MuhammadWaleedMalik/BuyerCompass/main/src/amazon%20listing%20images/Christmas/Trees/SLIM%20ARTIFICAL%20TREE.png"
             },
             {
               "name": "5ft Flocked Snowy Tree",
               "description": "Bring the magic of a snowy forest inside with the 5ft Flocked Snowy Tree, the perfect piece to instantly refresh your home this holiday season. Designed with exceptional durability, and effortless setup, this snowy tree is guaranteed to stand out beautifully in every photo, social post, and real-life gathering. Due to limited availability, secure this stunning centerpiece by adding it to your cart before it's sold out",
               "priceText": "Click to check",
-              "priceUrl": "https://amzn.to/3N2PRnh",
+              "priceUrl": null,
               "image": "https://raw.githubusercontent.com/MuhammadWaleedMalik/BuyerCompass/main/src/amazon%20listing%20images/Christmas/Trees/FLOCKED%20SNOWY%20TREE.png"
             },
             {
               "name": "6ft Pre-Lit Warm White Tree",
               "description": "Illuminate your home effortlessly with the 6ft Pre-Lit Warm White Tree, the ideal centerpiece to instantly refresh your space this holiday season. Expertly crafted for superior style, lasting durability, and incredibly easy setup, this tree features a beautiful, warm glow guaranteed to look magnificent in photos, on social media, and in person. Given the limited availability of this popular item, ensure you add it to your cart right away before it sells out!",
               "priceText": "Click to check",
-              "priceUrl": "https://amzn.to/4pFlGRJ",
+              "priceUrl": null,
               "image": "https://raw.githubusercontent.com/MuhammadWaleedMalik/BuyerCompass/main/src/amazon%20listing%20images/Christmas/Trees/PRE%20LIT%20WARM%20WHITE%20TREE.png"
             },
             {
@@ -42,13 +396,6 @@
               "priceText": "Click to check",
               "priceUrl": null,
               "image": "https://raw.githubusercontent.com/MuhammadWaleedMalik/BuyerCompass/main/src/amazon%20listing%20images/Christmas/Trees/FLOCKED%20TREE%20WITH%20PINECONES.png"
-            },
-            {
-              "name": "9ft Pre-Lit Artificial Tree",
-              "description": "Refresh your home with dazzling light of towering 9ft Pre-Lit Artificial Tree. Crafted for imposing style, long-lasting durability, and easy setup, this magnificent tree is guaranteed to dominate photos, command attention on social media, and provide a breathtaking presence in your home. Limited availability – add it to your cart before it sells out.",
-              "priceText": "Click to check",
-              "priceUrl": null,
-              "image": ""
             },
             {
               "name": "Tabletop Mini Tree with Lights",
