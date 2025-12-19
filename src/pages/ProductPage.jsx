@@ -7,18 +7,20 @@ export default function ProductPage() {
     const [product, setProduct] = useState(null);
     const [loading, setLoading] = useState(true);
 
-    const themeLight = "#51A2D5";
     const themeDark = "#15324E";
 
     useEffect(() => {
         if (!slug) return;
 
-        // Flatten all products to find the one with matching slug
         let foundProduct = null;
 
-        // Helper to check if slug matches
         const isMatch = (item) => {
-            const itemSlug = item.slug || item.name.toLowerCase().replace(/ /g, '-').replace(/[^\w-]+/g, '');
+            const itemSlug =
+                item.slug ||
+                item.name
+                    .toLowerCase()
+                    .replace(/ /g, "-")
+                    .replace(/[^\w-]+/g, "");
             return itemSlug === slug;
         };
 
@@ -26,13 +28,15 @@ export default function ProductPage() {
             if (cat.products) {
                 for (const sub of cat.products) {
                     if (sub.item) {
-                        // item can be array or single object
-                        const items = Array.isArray(sub.item) ? sub.item : [sub.item];
+                        const items = Array.isArray(sub.item)
+                            ? sub.item
+                            : [sub.item];
                         for (const item of items) {
                             if (isMatch(item)) {
-                                foundProduct = item;
-                                // Add category info if needed
-                                foundProduct.category_name = cat.name;
+                                foundProduct = {
+                                    ...item,
+                                    category_name: cat.name,
+                                };
                                 break;
                             }
                         }
@@ -71,7 +75,10 @@ export default function ProductPage() {
                         {/* IMAGE SECTION */}
                         <div className="flex items-center justify-center bg-gray-100 rounded-lg p-4">
                             <img
-                                src={product.image || "https://placehold.co/600x400?text=No+Image"}
+                                src={
+                                    product.image ||
+                                    "https://placehold.co/600x400?text=No+Image"
+                                }
                                 alt={product.name}
                                 className="max-w-full max-h-[500px] object-contain hover:scale-105 transition-transform duration-300"
                             />
@@ -79,13 +86,14 @@ export default function ProductPage() {
 
                         {/* DETAILS SECTION */}
                         <div className="flex flex-col justify-center">
-                            <div className="mb-2">
-                                <span className="text-sm font-semibold uppercase tracking-wider text-gray-500">
-                                    {product.category_name || "Product"}
-                                </span>
-                            </div>
+                            <span className="text-sm font-semibold uppercase tracking-wider text-gray-500 mb-2">
+                                {product.category_name || "Product"}
+                            </span>
 
-                            <h1 className="text-3xl md:text-4xl font-bold mb-4" style={{ color: themeDark }}>
+                            <h1
+                                className="text-3xl md:text-4xl font-bold mb-4"
+                                style={{ color: themeDark }}
+                            >
                                 {product.name}
                             </h1>
 
@@ -93,7 +101,18 @@ export default function ProductPage() {
                                 {product.description}
                             </p>
 
-                            {/* ACTION BUTTON REMOVED */}
+                            {/* CHECK PRICE BUTTON */}
+                            {product.priceUrl && (
+                                <a
+                                    href={product.priceUrl}
+                                    target="_blank"
+                                    rel="noopener noreferrer"
+                                    className="inline-block mt-2 px-6 py-3 rounded-lg font-bold text-black transition-transform hover:scale-105"
+                                    style={{ backgroundColor: "#ff9900" }}
+                                >
+                                    {product.priceText || "Check price"}
+                                </a>
+                            )}
                         </div>
                     </div>
                 </div>
