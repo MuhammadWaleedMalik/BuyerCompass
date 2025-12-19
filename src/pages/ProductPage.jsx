@@ -9,6 +9,15 @@ export default function ProductPage() {
 
     const themeDark = "#15324E";
 
+    // CTA texts (randomly selected)
+    const ctaTexts = [
+        "Check today’s Amazon price",
+        "View on Amazon (limited stock)",
+        "See price before it sells out",
+    ];
+
+    const [ctaText, setCtaText] = useState("");
+
     useEffect(() => {
         if (!slug) return;
 
@@ -48,6 +57,12 @@ export default function ProductPage() {
         }
 
         setProduct(foundProduct);
+
+        // Pick a random CTA every page load
+        setCtaText(
+            ctaTexts[Math.floor(Math.random() * ctaTexts.length)]
+        );
+
         setLoading(false);
     }, [slug]);
 
@@ -110,7 +125,7 @@ export default function ProductPage() {
                                     className="inline-block mt-2 px-6 py-3 rounded-lg font-bold text-black transition-transform hover:scale-105"
                                     style={{ backgroundColor: "#ff9900" }}
                                 >
-                                    {product.priceText || "Check price"}
+                                    {ctaText}
                                 </a>
                             )}
                         </div>
