@@ -7,9 +7,11 @@ export default function ProductPage() {
     const [product, setProduct] = useState(null);
     const [loading, setLoading] = useState(true);
 
+    // Theme colors
+    const themeLight = "#51A2D5";
     const themeDark = "#15324E";
 
-    // CTA texts (randomly selected)
+    // CTA texts (random)
     const ctaTexts = [
         "Check today’s Amazon price",
         "View on Amazon (limited stock)",
@@ -58,7 +60,7 @@ export default function ProductPage() {
 
         setProduct(foundProduct);
 
-        // Pick a random CTA every page load
+        // Pick random CTA on each page load
         setCtaText(
             ctaTexts[Math.floor(Math.random() * ctaTexts.length)]
         );
@@ -116,14 +118,25 @@ export default function ProductPage() {
                                 {product.description}
                             </p>
 
-                            {/* CHECK PRICE BUTTON */}
+                            {/* THEME-BASED CTA BUTTON */}
                             {product.priceUrl && (
                                 <a
                                     href={product.priceUrl}
                                     target="_blank"
                                     rel="noopener noreferrer"
-                                    className="inline-block mt-2 px-6 py-3 rounded-lg font-bold text-black transition-transform hover:scale-105"
-                                    style={{ backgroundColor: "#ff9900" }}
+                                    className="inline-block mt-2 px-7 py-3 rounded-lg font-semibold transition-all duration-300 focus:outline-none focus:ring-2 focus:ring-offset-2"
+                                    style={{
+                                        backgroundColor: themeDark,
+                                        color: "#ffffff",
+                                    }}
+                                    onMouseEnter={(e) =>
+                                        (e.currentTarget.style.backgroundColor =
+                                            themeLight)
+                                    }
+                                    onMouseLeave={(e) =>
+                                        (e.currentTarget.style.backgroundColor =
+                                            themeDark)
+                                    }
                                 >
                                     {ctaText}
                                 </a>
