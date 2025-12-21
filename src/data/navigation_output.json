@@ -1,0 +1,74 @@
+{
+  "categories": [
+    {
+      "name": "Christmas",
+      "slug": "christmas",
+      "subcategories": [
+        {
+          "name": "Trees",
+          "slug": "trees"
+        },
+        {
+          "name": "Ornaments",
+          "slug": "ornaments"
+        },
+        {
+          "name": "Stockings",
+          "slug": "stockings"
+        },
+        {
+          "name": "Garlands & Wreaths",
+          "slug": "garlands & wreaths"
+        },
+        {
+          "name": "Outdoor Decor",
+          "slug": "outdoor decor"
+        },
+        {
+          "name": "Home Decor",
+          "slug": "home decor"
+        },
+        {
+          "name": "Gifts",
+          "slug": "gifts"
+        }
+      ]
+    },
+    {
+      "name": "New Year",
+      "slug": "new year",
+      "subcategories": [
+        {
+          "name": "Party Kits",
+          "slug": "party kits"
+        },
+        {
+          "name": "Decorations",
+          "slug": "decorations"
+        },
+        {
+          "name": "Tableware & Bar",
+          "slug": "tableware & bar"
+        },
+        {
+          "name": "Photo & Fun",
+          "slug": "photo & fun"
+        }
+      ]
+    }
+  ],
+  "specialButtons": [
+    {
+      "name": "Trending",
+      "slug": "trending"
+    },
+    {
+      "name": "Deals",
+      "slug": "deals"
+    },
+    {
+      "name": "Gift Guides",
+      "slug": "gift-guides"
+    }
+  ]
+}
