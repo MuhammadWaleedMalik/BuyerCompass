@@ -19,6 +19,40 @@
         {
           "name": "Garlands & Wreaths",
           "slug": "garlands & wreaths"
+        },
+        {
+          "name": "Outdoor Decor",
+          "slug": "outdoor decor"
+        },
+        {
+          "name": "Home Decor",
+          "slug": "home decor"
+        },
+        {
+          "name": "Gifts",
+          "slug": "gifts"
+        }
+      ]
+    },
+    {
+      "name": "New Year",
+      "slug": "new year",
+      "subcategories": [
+        {
+          "name": "Party Kits",
+          "slug": "party kits"
+        },
+        {
+          "name": "Decorations",
+          "slug": "decorations"
+        },
+        {
+          "name": "Tableware & Bar",
+          "slug": "tableware & bar"
+        },
+        {
+          "name": "Photo & Fun",
+          "slug": "photo & fun"
         }
       ]
     }

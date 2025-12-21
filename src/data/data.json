@@ -102,6 +102,130 @@
           ]
         },
         {
+          "subcategory": "Gifts",
+          "slug": "gifts",
+          "item": [
+            {
+              "name": "Scented Candle Gift Set",
+              "description": "Envelop the senses with the perfect present in the form of the Scented Candle Gift Set. Carefully prepared for captivating aromas, extended burn time, and straightforward gifting and display, this set provides an instant ambiance of warmth and irresistible fragrance. This collection ensures an enchanting, high-quality experience that is guaranteed to impress in photos, social media feeds, and in person. Given the overwhelming interest in this essential, comforting gift, stock is severely limited—act now to secure this stunning scented candle set before it sells out!",
+              "priceText": "Click to check",
+              "priceUrl": "https://amzn.to/3Y0FXoH",
+              "image": "https://raw.githubusercontent.com/MuhammadWaleedMalik/BuyerCompass/main/src/amazon%20listing%20images/Christmas/Images/Scented%20Candle%20Gift%20Set.png"
+            },
+            {
+              "name": "Hot Chocolate Gift Box",
+              "description": "Deliver instant cozy comfort with the Hot Chocolate Gift Box. Thoughtfully packaged for delicious flavors, premium presentation, and straightforward enjoyment, this set provides an immediate sense of warmth and festive indulgence for cold nights. This collection ensures a delightful, high-quality experience that is guaranteed to impress in photos, social media feeds, and in person. Given the overwhelming interest in this essential, heartwarming gift, stock is severely limited—act now to secure this stunning hot chocolate gift box before it sells out!",
+              "priceText": "Click to check",
+              "priceUrl": "https://amzn.to/4qgjn7r",
+              "image": "https://raw.githubusercontent.com/MuhammadWaleedMalik/BuyerCompass/main/src/amazon%20listing%20images/Christmas/Images/Hot%20Chocolate%20Gift%20Box.png"
+            },
+            {
+              "name": "Beard Grooming Kit Gift",
+              "description": "Elevate his daily routine with the sophisticated Beard Grooming Kit Gift. Carefully assembled for premium performance, impressive longevity, and straightforward application, this kit provides all the tools needed for a sharp, well-maintained look and a feeling of indulgence. This collection ensures a refined, high-quality experience that is guaranteed to impress in photos, social media feeds, and in person. Given the overwhelming interest in this essential, high-utility gift, stock is severely limited—act now to secure this stunning beard grooming kit before it sells out!",
+              "priceText": "Click to check",
+              "priceUrl": "https://amzn.to/3Y43yop",
+              "image": "https://raw.githubusercontent.com/MuhammadWaleedMalik/BuyerCompass/main/src/amazon%20listing%20images/Christmas/Images/Beard%20Grooming%20Kit%20Gift.png"
+            },
+            {
+              "name": "Skincare Gift Set",
+              "description": "Offer the gift of glowing confidence with the luxurious Skincare Gift Set, the ideal personal care collection to refresh anyone's aesthetic this season. Exquisitely curated for premium results, impressive longevity of benefit, and straightforward integration into any routine, this collection ensures a refined, high-quality experience that is guaranteed to impress in photos, social media feeds, and in person. Given the overwhelming interest in this essential, self-care offering, stock is severely limited—act now to secure this stunning skincare gift set before it sells out!",
+              "priceText": "Click to check",
+              "priceUrl": "https://amzn.to/4qe5feT",
+              "image": "https://raw.githubusercontent.com/MuhammadWaleedMalik/BuyerCompass/main/src/amazon%20listing%20images/Christmas/Images/Skincare%20Gift%20Set.png"
+            },
+            {
+              "name": "Coffee Lover Gift Box",
+              "description": "Delight any caffeine enthusiast with the exceptional Coffee Lover Gift Box. Thoughtfully composed for rich, invigorating flavors, premium presentation, and straightforward brewing enjoyment, this set provides everything needed for a luxurious morning ritual. This collection ensures an energizing, high-quality experience that is guaranteed to impress in photos, social media feeds, and in person. Given the overwhelming interest in this essential, universally loved gift, stock is severely limited—act now to secure this stunning coffee lover gift box before it sells out!",
+              "priceText": "Click to check",
+              "priceUrl": "https://amzn.to/4s7k30y",
+              "image": "https://raw.githubusercontent.com/MuhammadWaleedMalik/BuyerCompass/main/src/amazon%20listing%20images/Christmas/Images/Coffee%20Lover%20Gift%20Box.png"
+            },
+            {
+              "name": "Gourmet Snack Basket",
+              "description": "Impress any recipient with the exquisite Gourmet Snack Basket. Carefully curated for diverse, high-end flavors, elegant presentation, and straightforward sharing enjoyment, this basket provides an array of delicious treats perfect for entertaining or indulging. This collection ensures a sophisticated, high-quality experience that is guaranteed to impress in photos, social media feeds, and in person. Given the overwhelming interest in this essential, universally appreciated gift, stock is severely limited—act now to secure this stunning gourmet snack basket before it sells out!",
+              "priceText": "Click to check",
+              "priceUrl": "https://amzn.to/44wmrEg",
+              "image": "https://raw.githubusercontent.com/MuhammadWaleedMalik/BuyerCompass/main/src/amazon%20listing%20images/Christmas/Images/Gourmet%20Snack%20Basket.png"
+            },
+            {
+              "name": "Holiday Cookie Gift Tin",
+              "description": "Share classic holiday cheer with the charming Holiday Cookie Gift Tin. Lovingly prepared for fresh, festive flavors, attractive packaging, and straightforward, immediate enjoyment, this tin provides a delicious assortment of baked goods perfect for sharing at gatherings or enjoying with a hot drink. This collection ensures a warm, high-quality experience that is guaranteed to impress in photos, social media feeds, and in person. Given the overwhelming interest in this essential, beloved holiday gift, stock is severely limited—act now to secure this stunning cookie gift tin before it sells out!",
+              "priceText": "Click to check",
+              "priceUrl": "https://amzn.to/4jgja1R",
+              "image": "https://raw.githubusercontent.com/MuhammadWaleedMalik/BuyerCompass/main/src/amazon%20listing%20images/Christmas/Images/Holiday%20Cookie%20Gift%20Tin.png"
+            },
+            {
+              "name": "Personalized Mug Gift",
+              "description": "Give a truly unique and thoughtful present with the Personalized Mug Gift. Uniquely crafted for distinctive, meaningful style, superb longevity, and straightforward, daily use, this mug provides a perfect vessel for their favorite hot beverage and a lasting reminder of your thoughtfulness. This collection ensures a memorable, high-quality experience that is guaranteed to impress in photos, social media feeds, and in person. Given the overwhelming interest in this essential, custom-made gift, stock is severely limited—act now to secure this stunning personalized mug before it sells out!",
+              "priceText": "Click to check",
+              "priceUrl": "https://amzn.to/4s6TkBu",
+              "image": "https://raw.githubusercontent.com/MuhammadWaleedMalik/BuyerCompass/main/src/amazon%20listing%20images/Christmas/Images/Personalized%20Mug%20Gift.png"
+            },
+            {
+              "name": "Photo Frame Gift Set",
+              "description": "Preserve cherished memories with the elegant Photo Frame Gift Set, the ideal decorative collection to refresh anyone's home aesthetic this season. Finely constructed for sophisticated, classic style, impressive longevity, and straightforward picture placement, this set provides a beautiful way to display beloved moments on walls or tabletops. This collection ensures a personal, high-quality experience that is guaranteed to impress in photos, social media feeds, and in person. Given the overwhelming interest in this essential, sentimental gift, stock is severely limited—act now to secure this stunning photo frame gift set before it sells out!",
+              "priceText": "Click to check",
+              "priceUrl": "https://amzn.to/4s3gKHM",
+              "image": "https://raw.githubusercontent.com/MuhammadWaleedMalik/BuyerCompass/main/src/amazon%20listing%20images/Christmas/Images/Photo%20Frame%20Gift%20Set.png"
+            },
+            {
+              "name": "Spa Gift Basket",
+              "description": "Offer the ultimate escape with the luxurious Spa Gift Basket. Exquisitely curated for relaxing, aromatic sensory pleasure, impressive longevity of benefit, and straightforward, instant enjoyment, this basket provides everything needed for a revitalizing, at-home spa experience. This collection ensures a tranquil, high-quality retreat that is guaranteed to impress in photos, social media feeds, and in person. Given the overwhelming interest in this essential, self-care offering, stock is severely limited—act now to secure this stunning spa gift basket before it sells out!",
+              "priceText": "Click to check",
+              "priceUrl": "https://amzn.to/4p6aVqC",
+              "image": "https://raw.githubusercontent.com/MuhammadWaleedMalik/BuyerCompass/main/src/amazon%20listing%20images/Christmas/Images/Spa%20Gift%20Basket.png"
+            }
+          ]
+        },
+        {
+          "subcategory": "Home Decor",
+          "slug": "home decor",
+          "item": [
+            {
+              "name": "Christmas Throw Pillow Covers Set",
+              "description": "Revamp your living area for the festivities with the Christmas Throw Pillow Covers Set, the ultimate decor accessory to instantly revitalize your home's aesthetic this season. Expertly crafted for bold, appealing patterns, superb longevity, and hassle-free application, these covers effortlessly convert your current cushions into stylish holiday focal points. This indispensable set is guaranteed to impress in photos, social media feeds, and in person. Given the overwhelming interest in this versatile must-have, stock is severely limited—act now to secure these stunning pillow covers before they are gone!",
+              "priceText": "Click to check",
+              "priceUrl": "https://amzn.to/4qigO4H",
+              "image": "https://raw.githubusercontent.com/MuhammadWaleedMalik/BuyerCompass/main/src/amazon%20listing%20images/Christmas/Images/Christmas%20Throw%20Pillow%20Covers%20Set.png"
+            },
+            {
+              "name": "Christmas Tablecloth Waterproof",
+              "description": "Instantly protect and enhance your holiday dining area with the Christmas Tablecloth Waterproof. Meticulously designed for practical, festive style, superior longevity, and hassle-free coverage, this tablecloth guarantees your table remains pristine while providing a vibrant, welcoming look. This indispensable piece is guaranteed to impress in photos, social media feeds, and in person. Given the overwhelming interest in this highly functional essential, stock is severely limited—act now to secure this stunning, waterproof tablecloth before it is gone!",
+              "priceText": "Click to check",
+              "priceUrl": "https://amzn.to/3Y6TQld",
+              "image": "https://raw.githubusercontent.com/MuhammadWaleedMalik/BuyerCompass/main/src/amazon%20listing%20images/Christmas/Images/Christmas%20Tablecloth%20Waterproof.png"
+            },
+            {
+              "name": "Christmas Doormat Welcome Mat",
+              "description": "Establish a festive and friendly entrance with the Christmas Doormat Welcome Mat. Robustly constructed for bold, inviting style, superb longevity, and straightforward placement, this mat delivers a charming holiday greeting right at your doorstep while effectively trapping dirt. This indispensable piece is guaranteed to impress in photos, social media feeds, and in person. Given the overwhelming interest in this essential, high-traffic decor, stock is severely limited—act now to secure this stunning welcome mat before it is gone!",
+              "priceText": "Click to check",
+              "priceUrl": "https://amzn.to/3Y6TQld",
+              "image": "https://raw.githubusercontent.com/MuhammadWaleedMalik/BuyerCompass/main/src/amazon%20listing%20images/Christmas/Images/Christmas%20Doormat%20Welcome%20Mat.png"
+            },
+            {
+              "name": "Christmas Chair Cover Set",
+              "description": "Transform your dining area into a festive banquet with the Christmas Chair Cover Set. Masterfully tailored for clean, uniform style, superb longevity, and straightforward application, this set instantly elevates the look of your chairs, creating a polished and coordinated holiday setting. This indispensable collection ensures a neat, high-impact ambiance that is guaranteed to impress in photos, social media feeds, and in person. Given the overwhelming interest in this essential, quick-change decor, stock is severely limited—act now to secure this stunning chair cover set before it is gone!",
+              "priceText": "Click to check",
+              "priceUrl": "https://amzn.to/4pGBBiF",
+              "image": "https://raw.githubusercontent.com/MuhammadWaleedMalik/BuyerCompass/main/src/amazon%20listing%20images/Christmas/Images/Christmas%20Chair%20Cover%20Set.png"
+            },
+            {
+              "name": "Holiday Oven Mitts and Pot Holders",
+              "description": "Equip your kitchen for festive cooking with the Holiday Oven Mitts and Pot Holders. Sturdily constructed for practical, cheerful style, exceptional heat resistance, and straightforward hanging display, this set provides essential protection while adding a playful holiday touch to your culinary space. This collection is guaranteed to impress in photos, social media feeds, and in person. Given the overwhelming interest in this essential, high-utility kitchen decor, stock is severely limited—act now to secure this stunning oven mitts and pot holders set before it is gone!",
+              "priceText": "Click to check",
+              "priceUrl": "https://amzn.to/48XokLn",
+              "image": "https://raw.githubusercontent.com/MuhammadWaleedMalik/BuyerCompass/main/src/amazon%20listing%20images/Christmas/Images/Holiday%20Oven%20Mitts%20and%20Pot%20Holders.png"
+            },
+            {
+              "name": "Christmas Countdown Advent Calendar",
+              "description": "Build excitement throughout December with the Christmas Countdown Advent Calendar. Cleverly designed for engaging, traditional style, superb longevity, and straightforward hanging or display, this calendar creates a cherished daily ritual leading up to the holiday. This collection ensures a bright, welcoming look that is guaranteed to impress in photos, social media feeds, and in person. Given the overwhelming interest in this essential, festive tradition, stock is severely limited—act now to secure this stunning advent calendar before it is gone!",
+              "priceText": "Click to check",
+              "priceUrl": "https://amzn.to/4qih6bN",
+              "image": "https://raw.githubusercontent.com/MuhammadWaleedMalik/BuyerCompass/main/src/amazon%20listing%20images/Christmas/Images/Christmas%20Countdown%20Advent%20Calendar.png"
+            }
+          ]
+        },
+        {
           "subcategory": "Ornaments",
           "slug": "ornaments",
           "item": [
@@ -248,6 +372,54 @@
           ]
         },
         {
+          "subcategory": "Outdoor Decor",
+          "slug": "outdoor decor",
+          "item": [
+            {
+              "name": "6ft Inflatable Snowman",
+              "description": "Welcome guests with a massive smile using the 6ft Inflatable Snowman. Crafted for huge, cheerful style, reliable, weather-resistant durability, and incredibly easy, quick inflation setup, this iconic figure is guaranteed to stand out boldly in photos, social posts, and real life. Due to high demand for large, visible decor, availability is limited—add this giant inflatable snowman to your cart immediately before it sells out!",
+              "priceText": "Click to check",
+              "priceUrl": "https://amzn.to/4j6kjZD",
+              "image": "https://raw.githubusercontent.com/MuhammadWaleedMalik/BuyerCompass/main/src/amazon%20listing%20images/Christmas/Images/6ft%20Inflatable%20Snowman.png"
+            },
+            {
+              "name": "Inflatable Christmas Tree with Gifts",
+              "description": "Create a full, cheerful holiday vignette instantly with the Inflatable Christmas Tree with Gifts. Crafted for vibrant, complete style, reliable, weather-resistant durability, and incredibly easy, quick inflation setup, this festive scene is guaranteed to stand out boldly and beautifully in photos, social posts, and real life. Due to its unique, all-inclusive design, availability is limited—add this fun inflatable scene to your cart immediately before it sells out!",
+              "priceText": "Click to check",
+              "priceUrl": "https://amzn.to/4pQB7GM",
+              "image": "https://raw.githubusercontent.com/MuhammadWaleedMalik/BuyerCompass/main/src/amazon%20listing%20images/Christmas/Images/Inflatable%20Christmas%20Tree%20with%20Gifts.png"
+            },
+            {
+              "name": "Inflatable Nativity Scene",
+              "description": "Share the sacred reason for the season with the Inflatable Nativity Scene. Crafted for classic, detailed style, reliable, weather-resistant durability, and incredibly easy, quick inflation setup, this beautiful scene guarantees a peaceful, poignant display for your yard. This essential religious piece is guaranteed to stand out thoughtfully in photos, social posts, and real life. Due to its traditional importance and high demand, availability is limited—add this beautiful inflatable nativity scene to your cart immediately before it sells out!",
+              "priceText": "Click to check",
+              "priceUrl": "https://amzn.to/4pLtMs9",
+              "image": "https://raw.githubusercontent.com/MuhammadWaleedMalik/BuyerCompass/main/src/amazon%20listing%20images/Christmas/Images/Inflatable%20Nativity%20Scene.png"
+            },
+            {
+              "name": "LED Lighted Deer Family Set",
+              "description": "Achieve a sophisticated, shimmering yard display with the LED Lighted Deer Family Set. Crafted for elegant, classic style, reliable, weather-resistant durability, and incredibly easy setup, these illuminated figures guarantee a stunning, beautiful glow that is visible both day and night. This essential yard accent is guaranteed to stand out boldly and beautifully in photos, social posts, and real life. Due to high demand for this essential, timeless set, availability is limited—add this gorgeous deer family to your cart immediately before it sells out!",
+              "priceText": "Click to check",
+              "priceUrl": "https://amzn.to/3MMc4WL",
+              "image": "https://raw.githubusercontent.com/MuhammadWaleedMalik/BuyerCompass/main/src/amazon%20listing%20images/Christmas/Images/LED%20Lighted%20Deer%20Family%20Set.png"
+            },
+            {
+              "name": "Holiday Yard Stake Light Set",
+              "description": "Outline your paths and garden beds with vibrant light using the Holiday Yard Stake Light Set. Crafted for festive style, reliable, weather-resistant durability, and incredibly easy stake-in setup, these lights guarantee a beautiful, well-defined glow that guides visitors and highlights your landscaping. This essential accent set is guaranteed to stand out boldly and beautifully in photos, social posts, and real life. Due to high demand for simple, effective outdoor lighting, availability is limited—add this gorgeous stake light set to your cart immediately before it sells out!",
+              "priceText": "Click to check",
+              "priceUrl": "https://amzn.to/3KJ4GuK",
+              "image": "https://raw.githubusercontent.com/MuhammadWaleedMalik/BuyerCompass/main/src/amazon%20listing%20images/Christmas/Images/Holiday%20Yard%20Stake%20Light%20Set.png"
+            },
+            {
+              "name": "Waterproof Holiday Yard Flag Set",
+              "description": "Add a rotating touch of festive elegance to your landscaping with the Waterproof Holiday Yard Flag Set. Crafted for vibrant, seasonal style, superior weather-resistant durability, and incredibly easy stake setup, these flags guarantee a bright, welcoming display that withstands rain and snow. This essential accent set is guaranteed to stand out boldly and beautifully in photos, social posts, and real life. Due to its resilience and high demand for porch and garden decor, availability is limited—add this reliable, waterproof flag set to your cart immediately before it sells out!",
+              "priceText": "Click to check",
+              "priceUrl": "https://amzn.to/4apTJso",
+              "image": "https://raw.githubusercontent.com/MuhammadWaleedMalik/BuyerCompass/main/src/amazon%20listing%20images/Christmas/Images/Waterproof%20Holiday%20Yard%20Flag%20Set.png"
+            }
+          ]
+        },
+        {
           "subcategory": "Stockings",
           "slug": "stockings",
           "item": [
@@ -368,62 +540,176 @@
               "priceText": "Click to check",
               "priceUrl": "https://amzn.to/4rYgDxd",
               "image": "https://raw.githubusercontent.com/MuhammadWaleedMalik/BuyerCompass/main/src/amazon%20listing%20images/Christmas/Trees/SLIM%20ARTIFICAL%20TREE.png"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "New Year",
+      "slug": "new year",
+      "products": [
+        {
+          "subcategory": "Decorations",
+          "slug": "decorations",
+          "item": [
+            {
+              "name": "Happy New Year Banner Set",
+              "description": "Adorn your venue for the big night with the Happy New Year Banner Set. Rigorously prepared for vibrant, celebratory style, impressive durability, and straightforward hanging, this set provides essential visuals to establish a high-impact, festive backdrop instantly. This collection ensures an exciting, high-quality ambiance that is guaranteed to impress in photos, social media feeds, and in person. Stock is severely limited—act now to secure this stunning banner set before it sells out!",
+              "priceText": "Click to check",
+              "priceUrl": "https://amzn.to/4p6iJbS",
+              "image": "https://raw.githubusercontent.com/MuhammadWaleedMalik/BuyerCompass/main/src/amazon%20listing%20images/Christmas/Images/Happy%20New%20Year%20Banner%20Set.png"
             },
             {
-              "name": "5ft Flocked Snowy Tree",
-              "description": "Bring the magic of a snowy forest inside with the 5ft Flocked Snowy Tree, the perfect piece to instantly refresh your home this holiday season. Designed with exceptional durability, and effortless setup, this snowy tree is guaranteed to stand out beautifully in every photo, social post, and real-life gathering. Due to limited availability, secure this stunning centerpiece by adding it to your cart before it's sold out",
+              "name": "2026 Number Foil Balloons",
+              "description": "Declare the new year with the brilliant 2026 Number Foil Balloons. Rigorously prepared for vibrant, date-specific style, impressive durability, and straightforward inflation and display, this set provides essential visuals to establish a high-impact, modern, and festive photo backdrop instantly. This collection ensures an exciting, high-quality ambiance that is guaranteed to impress in photos, social media feeds, and in person. Stock is severely limited—act now to secure this stunning 2026 number balloon set before it sells out!",
               "priceText": "Click to check",
-              "priceUrl": null,
-              "image": "https://raw.githubusercontent.com/MuhammadWaleedMalik/BuyerCompass/main/src/amazon%20listing%20images/Christmas/Trees/FLOCKED%20SNOWY%20TREE.png"
+              "priceUrl": "https://amzn.to/3Y6jg2o",
+              "image": "https://raw.githubusercontent.com/MuhammadWaleedMalik/BuyerCompass/main/src/amazon%20listing%20images/Christmas/Images/2026%20Number%20Foil%20Balloons.png"
             },
             {
-              "name": "6ft Pre-Lit Warm White Tree",
-              "description": "Illuminate your home effortlessly with the 6ft Pre-Lit Warm White Tree, the ideal centerpiece to instantly refresh your space this holiday season. Expertly crafted for superior style, lasting durability, and incredibly easy setup, this tree features a beautiful, warm glow guaranteed to look magnificent in photos, on social media, and in person. Given the limited availability of this popular item, ensure you add it to your cart right away before it sells out!",
+              "name": "New Year Hanging Swirl Decorations",
+              "description": "Add dynamic movement and sparkle overhead with the New Year Hanging Swirl Decorations. Rigorously assembled for dazzling, celebratory style, impressive durability, and straightforward hanging and arrangement, this set provides essential visuals that instantly transform your ceiling into a festive spectacle. This collection ensures an exciting, high-quality ambiance that is guaranteed to impress in photos, social media feeds, and in person. Stock is severely limited—act now to secure this stunning swirl decorations set before it sells out!",
               "priceText": "Click to check",
-              "priceUrl": null,
-              "image": "https://raw.githubusercontent.com/MuhammadWaleedMalik/BuyerCompass/main/src/amazon%20listing%20images/Christmas/Trees/PRE%20LIT%20WARM%20WHITE%20TREE.png"
+              "priceUrl": "https://amzn.to/4967Lgi",
+              "image": "https://raw.githubusercontent.com/MuhammadWaleedMalik/BuyerCompass/main/src/amazon%20listing%20images/Christmas/Images/New%20Year%20Hanging%20Swirl%20Decorations.png"
             },
             {
-              "name": "6ft Pre-Lit Multicolor Tree",
-              "description": "Energize your home instantly with the vibrant 6ft Pre-Lit Multicolor Tree. Expertly designed for durability, this eye-catching tree features an incredibly easy setup, and is guaranteed to be a spectacular centerpiece that shines brightly in photos, social posts, and real life. Limited availability – add it to your cart before it sells out.",
+              "name": "Black and Gold Balloon Stand",
+              "description": "Focus attention on your festive table with the Table Centerpiece Decoration Set. Rigorously assembled for elegant, coordinated style, impressive durability, and straightforward, instant display, this set provides essential visuals to establish a sophisticated and memorable dining atmosphere. This collection ensures an exciting, high-quality ambiance that is guaranteed to impress in photos, social media feeds, and in person. Stock is severely limited—act now to secure this stunning centerpiece decoration set before it sells out!",
               "priceText": "Click to check",
-              "priceUrl": null,
-              "image": "https://raw.githubusercontent.com/MuhammadWaleedMalik/BuyerCompass/main/src/amazon%20listing%20images/Christmas/Trees/PRE%20LIT%20MULTICOLOR%20TREE.png.png"
+              "priceUrl": "https://amzn.to/4pa1y9p",
+              "image": "https://raw.githubusercontent.com/MuhammadWaleedMalik/BuyerCompass/main/src/amazon%20listing%20images/Christmas/Images/Black%20and%20Gold%20Balloon%20Stand.png"
             },
             {
-              "name": "7.5ft Flocked Tree with Pinecones",
-              "description": "Elevate your holiday decor with the magnificent 7.5ft Flocked Tree with Pinecones, the ultimate centerpiece designed to instantly refresh your home with rustic, snowy elegance. Guaranteed to look spectacular in every photo, social post, and real-life setting. Made for exceptional style, season-after-season durability, and effortless setup. Availability is severely limited—add this beautiful, natural-looking tree to your cart right now before it sells out.",
+              "name": "6 Pack Fairy Lights Battery Operated",
+              "description": "Illuminate your celebration with the mesmerizing LED String Lights for NYE Backdrop. Rigorously assembled for brilliant, high-impact glamour, impressive durability, and straightforward, instant hanging, these lights provide essential visual warmth and shimmer that instantly elevate any backdrop or focal point. This collection ensures an exciting, high-quality ambiance that is guaranteed to impress in photos, social media feeds, and in person. Stock is severely limited—act now to secure this stunning LED string light set before it sells out!",
               "priceText": "Click to check",
-              "priceUrl": null,
-              "image": "https://raw.githubusercontent.com/MuhammadWaleedMalik/BuyerCompass/main/src/amazon%20listing%20images/Christmas/Trees/FLOCKED%20TREE%20WITH%20PINECONES.png"
+              "priceUrl": "https://amzn.to/49m2h2q",
+              "image": "https://raw.githubusercontent.com/MuhammadWaleedMalik/BuyerCompass/main/src/amazon%20listing%20images/Christmas/Images/6%20Pack%20Fairy%20Lights%20Battery%20Operated.png"
             },
             {
-              "name": "Tabletop Mini Tree with Lights",
-              "description": "Instantly refresh any small space, from a desk to a mantel, with the Tabletop Mini Tree with Lights, the perfect piece to add quick holiday cheer this season. This compact tree is made for charming style, lasting durability, and easy setup, guaranteeing a delightful sparkle that stands out in photos, social posts, and real life. Availability is limited due to its popularity, so secure this miniature delight by adding it to your cart now before it sells out!",
+              "name": "Glow Stick Party Pack for NYE",
+              "description": "Ignite the fun with the electric Glow Stick Party Pack for NYE. Rigorously assembled for vibrant, high-energy lighting, impressive longevity of glow, and straightforward activation, this pack provides essential visuals that instantly turn guests into part of the spectacle. This collection ensures an exciting, high-quality ambiance that is guaranteed to impress in photos, social media feeds, and in person. Stock is severely limited—act now to secure this stunning glow stick party pack before it sells out!",
               "priceText": "Click to check",
-              "priceUrl": null,
-              "image": "https://raw.githubusercontent.com/MuhammadWaleedMalik/BuyerCompass/main/src/amazon%20listing%20images/Christmas/Trees/TABLETOP%20MINI%20TREE.png"
+              "priceUrl": "https://amzn.to/4qlhmHh",
+              "image": "https://raw.githubusercontent.com/MuhammadWaleedMalik/BuyerCompass/main/src/amazon%20listing%20images/Christmas/Images/Glow%20Stick%20Party%20Pack%20for%20NYE.png"
+            }
+          ]
+        },
+        {
+          "subcategory": "Party Kits",
+          "slug": "party kits",
+          "item": [
+            {
+              "name": "Clear Plastic Champagne Flutes",
+              "description": "Kick off the countdown with the complete New Year Party Kit for 10 Guests, the ideal celebration solution to refresh your home's aesthetic this season. Rigorously prepared for festive, coordinated style, impressive durability, and straightforward, instant setup, this kit provides everything needed to host a memorable, high-energy event without the fuss. This collection ensures an exciting, high-quality ambiance that is guaranteed to impress in photos, social media feeds, and in person. Given the overwhelming interest in this essential, all-in-one party kit, stock is severely limited—act now to secure this stunning New Year kit before it sells out!",
+              "priceText": "Click to check",
+              "priceUrl": "https://amzn.to/3MN36Zg",
+              "image": "https://raw.githubusercontent.com/MuhammadWaleedMalik/BuyerCompass/main/src/amazon%20listing%20images/Christmas/Images/Clear%20Plastic%20Champagne%20Flutes.png"
             },
             {
-              "name": "Wall-Mounted Half Christmas Tree",
-              "description": "Maximize your floor space without sacrificing holiday cheer with the innovative Wall-Mounted Half Christmas Tree, the perfect solution to refresh your home this season. Crafted for exceptional style, durability, and a simple, flush-to-the-wall setup. Due to its unique and highly sought-after nature, availability is limited—add it to your cart before it sells out.",
+              "name": "2026 New Year Party Kit",
+              "description": "Celebrate the countdown with modern flair using the Rose Gold New Year Party Kit. Rigorously prepared for trendy, romantic style, impressive durability, and straightforward setup, this kit provides everything needed to host a fashionable, high-impact event without the hassle. This collection ensures an exciting, high-quality ambiance that is guaranteed to impress in photos, social media feeds, and in person. Stock is severely limited—act now to secure this stunning rose gold New Year kit before it sells out!",
               "priceText": "Click to check",
-              "priceUrl": null,
-              "image": "https://raw.githubusercontent.com/MuhammadWaleedMalik/BuyerCompass/main/src/amazon%20listing%20images/Christmas/Trees/WALL%20MOUNTED%20CHRISTMAS%20TREE.png"
+              "priceUrl": "https://amzn.to/4qjN9s4",
+              "image": "https://raw.githubusercontent.com/MuhammadWaleedMalik/BuyerCompass/main/src/amazon%20listing%20images/Christmas/Images/2026%20New%20Year%20Party%20Kit.png"
             },
             {
-              "name": "Pre-Lit Fiber Optic Tree",
-              "description": "Introduce a spectacular light show to your home with the Pre-Lit Fiber Optic Tree, the ultimate piece to refresh your space with ever-changing color this season. This tree is crafted for unique style, outstanding durability. ensuring a vivid display that stands out dramatically in photos, social posts, and real life. Due to its popularity, availability is strictly limited—add this dazzling tree to your cart immediately before it sells out!",
+              "name": "2026 New Year Balloon Kit",
+              "description": "Celebrate the arrival of the new year with the specialized 2026 New Year Balloon Kit. Rigorously prepared for vibrant, date-specific style, impressive durability, and straightforward inflation and arrangement, this set provides essential visuals to establish a high-impact, modern, and festive backdrop instantly. This collection ensures an exciting, high-quality ambiance that is guaranteed to impress in photos, social media feeds, and in person. Stock is severely limited—act now to secure this stunning 2026 balloon kit before it sells out!",
               "priceText": "Click to check",
-              "priceUrl": null,
-              "image": "https://raw.githubusercontent.com/MuhammadWaleedMalik/BuyerCompass/main/src/amazon%20listing%20images/Christmas/Trees/PRE%20LIT%20FIBER%20OPTIC%20TREE.png"
+              "priceUrl": "https://amzn.to/490yn2f",
+              "image": "https://raw.githubusercontent.com/MuhammadWaleedMalik/BuyerCompass/main/src/amazon%20listing%20images/Christmas/Images/2026%20New%20Year%20Balloon%20Kit.png"
             },
             {
-              "name": "Pre-Decorated Tree with Ornaments",
-              "description": "The Pre-Decorated Tree with Ornaments is the perfect way to instantly refresh your home this season, offering a professionally styled look and lasting durability. Designed for an unbelievably easy, zero-fuss setup, this tree is guaranteed to capture attention in photos, social posts, and real life. Due to limited availability, you must add this convenient, stunning tree to your cart right now!",
+              "name": "New Year Tableware Set for 50 Guests",
+              "description": "Host a massive, flawless celebration with the New Year Tableware Set for 50 Guests. Rigorously prepared for coordinated, large-scale style, impressive durability, and straightforward setup and cleanup, this kit provides all the essential plates, cutlery, and cups needed for a significant gathering without the monumental hassle. This collection ensures an exciting, high-quality ambiance that is guaranteed to impress in photos, social media feeds, and in person. Stock is severely limited—act now to secure this stunning tableware set before it sells out!",
               "priceText": "Click to check",
-              "priceUrl": null,
-              "image": "https://raw.githubusercontent.com/MuhammadWaleedMalik/BuyerCompass/main/src/amazon%20listing%20images/Christmas/Trees/PRE%20DECORATED%20TREE%20WITH%20ORNAMENTS.png"
+              "priceUrl": "https://amzn.to/4qiIsP7",
+              "image": "https://raw.githubusercontent.com/MuhammadWaleedMalik/BuyerCompass/main/src/amazon%20listing%20images/Christmas/Images/New%20Year%20Tableware%20Set%20for%2050%20Guests.png"
+            }
+          ]
+        },
+        {
+          "subcategory": "Photo & Fun",
+          "slug": "photo & fun",
+          "item": [
+            {
+              "name": "NYE Photo Booth Props Set",
+              "description": "Capture every unforgettable moment with the vibrant NYE Photo Booth Props Set. Rigorously assembled for playful, high-impact style, impressive durability, and straightforward, instant deployment, this set provides essential accessories guaranteed to bring laughter and stellar pictures to your celebration. This collection ensures an exciting, high-quality ambiance that is guaranteed to impress in photos, social media feeds, and in person. Stock is severely limited—act now to secure this stunning photo booth props set before it sells out!",
+              "priceText": "Click to check",
+              "priceUrl": "https://amzn.to/48PnMsj",
+              "image": "https://raw.githubusercontent.com/MuhammadWaleedMalik/BuyerCompass/main/src/amazon%20listing%20images/Christmas/Images/NYE%20Photo%20Booth%20Props%20Set.png"
+            },
+            {
+              "name": "2026 New Year Headbands",
+              "description": "Crown your guests in celebratory fashion with the vibrant 2026 New Year Headbands. Rigorously assembled for date-specific, high-impact style, impressive durability, and straightforward, instant wear, this set provides essential headwear guaranteed to bring cheer and fantastic photos to your event. This collection ensures an exciting, high-quality ambiance that is guaranteed to impress in photos, social media feeds, and in person. Stock is severely limited—act now to secure this stunning 2026 headbands set before it sells out!",
+              "priceText": "Click to check",
+              "priceUrl": "https://amzn.to/4s91Z6r",
+              "image": "https://raw.githubusercontent.com/MuhammadWaleedMalik/BuyerCompass/main/src/amazon%20listing%20images/Christmas/Images/2026%20New%20Year%20Headbands.png"
+            }
+          ]
+        },
+        {
+          "subcategory": "Tableware & Bar",
+          "slug": "tableware & bar",
+          "item": [
+            {
+              "name": "Black Gold Paper Plates Set",
+              "description": "Serve your festive bites with sophistication using the Black Gold Paper Plates Set. Rigorously prepared for coordinated, chic style, impressive sturdiness, and straightforward setup and cleanup, this set provides essential pieces for hassle-free hosting. This collection ensures an exciting, high-quality ambiance that is guaranteed to impress in photos, social media feeds, and in person. Stock is severely limited—act now to secure this stunning black and gold paper plates set before it sells out!",
+              "priceText": "Click to check",
+              "priceUrl": "https://amzn.to/48Px8nZ",
+              "image": "https://raw.githubusercontent.com/MuhammadWaleedMalik/BuyerCompass/main/src/amazon%20listing%20images/Christmas/Images/Black%20Gold%20Paper%20Plates%20Set.png"
+            },
+            {
+              "name": "Plastic Wine Glasses for NYE",
+              "description": "Sip your celebratory drinks in safety and style with the Plastic Wine Glasses for NYE. Rigorously prepared for coordinated, sophisticated style, impressive shatterproof durability, and straightforward setup and cleanup, this set provides essential, reliable pieces for hassle-free hosting. This collection ensures an exciting, high-quality ambiance that is guaranteed to impress in photos, social media feeds, and in person. Stock is severely limited—act now to secure this stunning plastic wine glasses set before it sells out!",
+              "priceText": "Click to check",
+              "priceUrl": "https://amzn.to/4pNSnwb",
+              "image": "https://raw.githubusercontent.com/MuhammadWaleedMalik/BuyerCompass/main/src/amazon%20listing%20images/Christmas/Images/Plastic%20Wine%20Glasses%20for%20NYE.png"
+            },
+            {
+              "name": "Buffet Serving Tray Set",
+              "description": "Present your festive spread beautifully with the Buffet Serving Tray Set. Rigorously prepared for coordinated, functional style, impressive durability, and straightforward setup, this set provides essential pieces for hassle-free serving, keeping your food organized and appealing. This collection ensures an exciting, high-quality ambiance that is guaranteed to impress in photos, social media feeds, and in person. Stock is severely limited—act now to secure this stunning serving tray set before it sells out!",
+              "priceText": "Click to check",
+              "priceUrl": "https://amzn.to/48QzsuV",
+              "image": "https://raw.githubusercontent.com/MuhammadWaleedMalik/BuyerCompass/main/src/amazon%20listing%20images/Christmas/Images/Buffet%20Serving%20Tray%20Set.png"
+            },
+            {
+              "name": "Charcuterie Board Set Gift",
+              "description": "Elevate any gathering with the sophisticated Charcuterie Board Set Gift. Meticulously crafted for distinctive, premium style, impressive durability, and straightforward setup and presentation, this set provides essential pieces for creating a beautiful and engaging food display. This collection ensures an exciting, high-quality ambiance that is guaranteed to impress in photos, social media feeds, and in person. Stock is severely limited—act now to secure this stunning charcuterie board set before it sells out!",
+              "priceText": "Click to check",
+              "priceUrl": "https://amzn.to/4p9mZr3",
+              "image": "https://raw.githubusercontent.com/MuhammadWaleedMalik/BuyerCompass/main/src/amazon%20listing%20images/Christmas/Images/Charcuterie%20Board%20Set%20Gift.png"
+            },
+            {
+              "name": "Cocktail Shaker Set Gift",
+              "description": "Master the art of mixology with the essential Cocktail Shaker Set Gift. Meticulously crafted for sleek, premium style, impressive durability, and straightforward use, this set provides essential tools for shaking up sophisticated and celebratory drinks for your guests. This collection ensures an exciting, high-quality ambiance that is guaranteed to impress in photos, social media feeds, and in person. Stock is severely limited—act now to secure this stunning cocktail shaker set before it sells out!",
+              "priceText": "Click to check",
+              "priceUrl": "https://amzn.to/4j8cqTu",
+              "image": "https://raw.githubusercontent.com/MuhammadWaleedMalik/BuyerCompass/main/src/amazon%20listing%20images/Christmas/Images/Cocktail%20Shaker%20Set%20Gift.png"
+            },
+            {
+              "name": "Ice Bucket for Champagne",
+              "description": "Keep the celebrations chilled with the elegant Ice Bucket for Champagne. Meticulously crafted for sleek, premium style, impressive insulation, and straightforward use, this bucket provides the essential function of keeping your celebratory drinks perfectly cooled and ready to pour. This collection ensures an exciting, high-quality ambiance that is guaranteed to impress in photos, social media feeds, and in person. Stock is severely limited—act now to secure this stunning champagne ice bucket before it sells out!",
+              "priceText": "Click to check",
+              "priceUrl": "https://amzn.to/493vGNl",
+              "image": "https://raw.githubusercontent.com/MuhammadWaleedMalik/BuyerCompass/main/src/amazon%20listing%20images/Christmas/Images/Ice%20Bucket%20for%20Champagne.png"
+            },
+            {
+              "name": "New Year Coaster Set",
+              "description": "Protect your surfaces with style using the New Year Coaster Set. Meticulously crafted for themed, premium style, impressive durability, and straightforward placement, this set provides essential protection against condensation rings while enhancing your party decor. This collection ensures an exciting, high-quality ambiance that is guaranteed to impress in photos, social media feeds, and in person. Stock is severely limited—act now to secure this stunning New Year coaster set before it sells out!",
+              "priceText": "Click to check",
+              "priceUrl": "https://amzn.to/4s4lJZ3",
+              "image": "https://raw.githubusercontent.com/MuhammadWaleedMalik/BuyerCompass/main/src/amazon%20listing%20images/Christmas/Images/New%20Year%20Coaster%20Set.png"
+            },
+            {
+              "name": "NYE Bar Decoration Kit",
+              "description": "Transform your drink station into a festive focal point with the NYE Bar Decoration Kit. Meticulously curated for cohesive, celebratory style, impressive durability, and straightforward, instant setup, this kit provides essential visuals to instantly elevate your bar area. This collection ensures an exciting, high-quality ambiance that is guaranteed to impress in photos, social media feeds, and in person. Stock is severely limited—act now to secure this stunning NYE bar decoration kit before it sells out!",
+              "priceText": "Click to check",
+              "priceUrl": "https://amzn.to/4b7CuMy",
+              "image": "https://raw.githubusercontent.com/MuhammadWaleedMalik/BuyerCompass/main/src/amazon%20listing%20images/Christmas/Images/NYE%20Bar%20Decoration%20Kit.png"
             }
           ]
         }
