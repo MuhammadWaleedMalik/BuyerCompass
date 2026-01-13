@@ -1,7 +1,7 @@
 // src/components/Snowfall.jsx
 import React from "react";
 
-//const SNOW_CHARS = ["❄", "✻", "✼", "✥"];
+const SNOW_CHARS = [];
 
 export default function Snowfall({ count = 80 }) {
   const flakes = Array.from({ length: count }, (_, i) => i);
