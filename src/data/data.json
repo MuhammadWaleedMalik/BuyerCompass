@@ -949,13 +949,15 @@
         {
           "subcategory": "Trees",
           "slug": "trees",
-          "item": {
-            "name": "4ft Slim Artificial Tree",
-            "description": "4ft Slim Artificial Tree – the perfect blend of beauty, style and convenience to refresh your home this season. Expertly designed for easy setup and lasting durability. Intensely photogenic, ready for its close up on social media and your home. Limited availability – add it to your cart before it sells out.",
-            "priceText": "Click to check",
-            "priceUrl": "https://amzn.to/4rYgDxd",
-            "image": "https://raw.githubusercontent.com/MuhammadWaleedMalik/BuyerCompass/main/src/amazon%20listing%20images/Christmas/Trees/SLIM%20ARTIFICAL%20TREE.png"
-          }
+          "item": [
+            {
+              "name": "4ft Slim Artificial Tree",
+              "description": "4ft Slim Artificial Tree – the perfect blend of beauty, style and convenience to refresh your home this season. Expertly designed for easy setup and lasting durability. Intensely photogenic, ready for its close up on social media and your home. Limited availability – add it to your cart before it sells out.",
+              "priceText": "Click to check",
+              "priceUrl": "https://amzn.to/4rYgDxd",
+              "image": "https://raw.githubusercontent.com/MuhammadWaleedMalik/BuyerCompass/main/src/amazon%20listing%20images/Christmas/Trees/SLIM%20ARTIFICAL%20TREE.png"
+            }
+          ]
         }
       ]
     },
