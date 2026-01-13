@@ -1,6 +1,24 @@
 {
   "categories": [
     {
+      "name": "Beauty & Grooming",
+      "slug": "beauty & grooming",
+      "subcategories": [
+        {
+          "name": "Skin Care",
+          "slug": "skin care"
+        },
+        {
+          "name": "Make Up",
+          "slug": "make up"
+        },
+        {
+          "name": "Hair Care",
+          "slug": "hair care"
+        }
+      ]
+    },
+    {
       "name": "Christmas",
       "slug": "christmas",
       "subcategories": [
